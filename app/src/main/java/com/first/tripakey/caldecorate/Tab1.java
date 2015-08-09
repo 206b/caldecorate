@@ -19,6 +19,8 @@ public class Tab1 extends Fragment {
         Button bt4 =(Button)v.findViewById(R.id.mooliAlu);
         Button bt5 =(Button)v.findViewById(R.id.manbupsangBt);
         Button bt6 =(Button)v.findViewById(R.id.chag);
+        Button bt7 =(Button)v.findViewById(R.id.costManmonBt);
+
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -58,6 +60,13 @@ public class Tab1 extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), Chagkanhong.class);
+                startActivity(intent);
+            }
+        });
+        bt7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), cost2.class);
                 startActivity(intent);
             }
         });

@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/bt_curtain"
-        android:background="#ff4f32"
+
         android:text="ผ้าม่าน"
         />
     <Button
@@ -47,6 +47,14 @@
         android:id="@+id/chag"
         android:layout_below="@+id/manbupsangBt"
         android:text="ฉากกันห้อง"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/costManmonBt"
+        android:layout_below="@+id/chag"
+        android:text="คำนวนม่านม้วน"
         />
 
 

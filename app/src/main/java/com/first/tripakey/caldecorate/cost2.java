@@ -99,6 +99,7 @@ public class cost2 extends ActionBarActivity {
 ////add inflater of fabtotal
         final EditText wild_in=(EditText)findViewById(R.id.wildIn);
         final EditText long_in=(EditText)findViewById(R.id.longIn);
+        final EditText unit_in=(EditText)findViewById(R.id.unit_edt);
 
 
         add_sq.setOnClickListener(new View.OnClickListener() {
@@ -115,18 +116,24 @@ public class cost2 extends ActionBarActivity {
                     textOut1.setText(wild_in.getText().toString());
                     final TextView textOut2 = (TextView) addView.findViewById(R.id.ul);
                     textOut2.setText(long_in.getText().toString());
+                    final TextView textOut3 = (TextView) addView.findViewById(R.id.unit);
+                    textOut3.setText(unit_in.getText().toString());
                    // texttoshow = textOut1.getText().toString();
                     final String[] addWstr = {textOut1.getText().toString()};
                     final String[] addLstr = {textOut2.getText().toString()};
+                    final String[] addUnitTr = {textOut3.getText().toString()};
+
                     final Double[] addtotalW = {Double.parseDouble(addWstr[0])};
                     final Double[] addtotalL = {Double.parseDouble(addLstr[0])};
-                   areaAddU = areaAddU + (addtotalW[0] / 100) * (addtotalL[0] / 100);
+                    final Double[] addTotalUnit = {Double.parseDouble(addUnitTr[0])};
+                   areaAddU =( areaAddU + ((addtotalW[0] / 100) * (addtotalL[0] / 100)*addTotalUnit[0]));
                     DecimalFormat d2 = new DecimalFormat("0.00");
                     testStr = d2.format(areaAddU);
                     fabtotal = Double.parseDouble(testStr);
                     fab.setText(testStr);
                     wild_in.setText(" ");
                     long_in.setText(" ");
+                    unit_in.setText(" ");
                     ImageButton remove = (ImageButton) addView.findViewById(R.id.remove);
                     remove.setImageResource(R.drawable.delete_ic);
                     remove.setOnClickListener(new View.OnClickListener() {
@@ -134,9 +141,12 @@ public class cost2 extends ActionBarActivity {
                         public void onClick(View v) {
                             String addWstr = textOut1.getText().toString();
                             String addLstr = textOut2.getText().toString();
+                            String addUnit = textOut3.getText().toString();
                             addtotalW[0] = Double.parseDouble(addWstr);
                             addtotalL[0] = Double.parseDouble(addLstr);
-                            areaAddU = areaAddU - (addtotalW[0] / 100) * (addtotalL[0] / 100);
+                            addTotalUnit[0] = Double.parseDouble(addUnit);
+
+                            areaAddU = (areaAddU - ((addtotalW[0] / 100) * (addtotalL[0] / 100)*addTotalUnit[0]));
                             DecimalFormat d2 = new DecimalFormat("0.00");
                             testStr = d2.format(areaAddU);
                           fabtotal = Double.parseDouble(testStr);
