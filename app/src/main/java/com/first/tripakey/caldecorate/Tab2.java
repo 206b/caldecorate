@@ -40,7 +40,7 @@ public class Tab2 extends Fragment {
         bt3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), cost2.class);
+                Intent intent = new Intent(getActivity(), costWallpaper.class);
                 startActivity(intent);
             }
         });

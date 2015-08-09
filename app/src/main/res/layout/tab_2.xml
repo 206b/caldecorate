@@ -22,6 +22,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/mooliBt"
         android:layout_below="@+id/manmonBt"
-        android:text="ค่าใช้จ่ายม่านม้วน"
+        android:text="ค่าใช้จ่ายวอลเปเปอร์"
         />
 </RelativeLayout>
