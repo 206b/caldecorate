@@ -349,7 +349,7 @@ public class WallPaper extends ActionBarActivity {
         priceEdt = (EditText) findViewById(R.id.wallPrice_edt);
 
         mSquareTv = (TextView) findViewById(R.id.Msquare);
-        handTv = (TextView) findViewById(R.id.HandiBthPerM);
+
         BhtTotalTv = (TextView) findViewById(R.id.BthTotal);
 
 

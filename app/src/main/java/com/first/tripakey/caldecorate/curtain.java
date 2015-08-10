@@ -41,15 +41,15 @@ public class curtain extends ActionBarActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position+1){
                     case 1:
-                        startActivity(new Intent(curtain.this, com.first.tripakey.caldecorate.CalCurtain.class));
+                        startActivity(new Intent(curtain.this, PleatedCurtains.class));
                         Global.name_curtain = "ม่านจีบ";
                         break;
                     case 2:
-                        startActivity(new Intent(curtain.this, calcurtainMtaki.class));
+                        startActivity(new Intent(curtain.this, EyeletCurtains.class));
                         Global.name_curtain = "ม่านตาไก่";
                         break;
                     case 3:
-                        startActivity(new Intent(curtain.this, CalCurtain2pup.class));
+                        startActivity(new Intent(curtain.this, RomanBlind.class));
                         Global.name_curtain = "ม่านผับ";
                         break;
 

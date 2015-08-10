@@ -324,7 +324,7 @@ public class costWallpaper extends ActionBarActivity {
     @Override
     public void onBackPressed() {
 
-        startActivity(new Intent(costWallpaper.this, calcost.class));
+        startActivity(new Intent(costWallpaper.this, MainActivity.class));
 
     }
 

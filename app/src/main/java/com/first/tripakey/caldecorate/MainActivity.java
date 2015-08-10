@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
 
-        // Creating The Toolbar and setting it as the Toolbar for the activity
+        // Creating The Toolbar and settingPleatedCurtain it as the Toolbar for the activity
 
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
@@ -43,7 +43,7 @@ public class MainActivity extends ActionBarActivity {
         // Creating The ViewPagerAdapter and Passing Fragment Manager, Titles fot the Tabs and Number Of Tabs.
         adapter =  new ViewPagerAdapter(getSupportFragmentManager(),Titles,Numboftabs);
 
-        // Assigning ViewPager View and setting the adapter
+        // Assigning ViewPager View and settingPleatedCurtain the adapter
         pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(adapter);
 

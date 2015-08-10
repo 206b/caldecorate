@@ -31,71 +31,47 @@
             android:label="@string/title_activity_curtain" >
         </activity>
         <activity
-            android:name=".setting"
+            android:name=".settingPleatedCurtain"
             android:label="@string/title_activity_setting" >
         </activity>
         <activity
-            android:name=".CalCurtain"
+            android:name=".PleatedCurtains"
             android:label="@string/title_activity_cal_curtain" >
         </activity>
         <activity
-            android:name=".calcost"
-            android:label="@string/title_activity_calcost" >
-        </activity>
-        <activity
-            android:name=".CalCurtain2pup"
+            android:name=".RomanBlind"
             android:label="@string/title_activity_cal_curtain2pup" >
         </activity>
         <activity
-            android:name=".cost1"
+            android:name=".cost_curtain"
             android:label="@string/title_activity_cost1" >
-        </activity>
-        <activity
-            android:name=".Manmon"
-            android:label="@string/title_activity_manmon" >
-        </activity>
-        <activity
-            android:name=".mooli"
-            android:label="@string/title_activity_mooli" >
-        </activity>
-        <activity
-            android:name=".manbupsang"
-            android:label="@string/title_activity_manbupsang" >
         </activity>
         <activity
             android:name=".WallPaper"
             android:label="@string/title_activity_wall_paper" >
         </activity>
         <activity
-            android:name=".settingPup"
+            android:name=".settingRomanBlind"
             android:label="@string/title_activity_setting_pup" >
         </activity>
         <activity
-            android:name=".Chagkanhong"
-            android:label="@string/title_activity_chagkanhong" >
-        </activity>
-        <activity
-            android:name=".cost2"
+            android:name=".RollerBlind"
             android:label="@string/title_activity_cost2" >
         </activity>
         <activity
-            android:name=".mooliAlu"
-            android:label="@string/title_activity_mooli_alu" >
-        </activity>
-        <activity
-            android:name=".cost1_2"
+            android:name=".costFurnitureFabrics"
             android:label="@string/title_activity_cost1_2" >
         </activity>
         <activity
-            android:name=".cost2_2"
+            android:name=".BambooBlind"
             android:label="@string/title_activity_cost2_2" >
         </activity>
         <activity
-            android:name=".cost2_3"
+            android:name=".VenetianBlind"
             android:label="@string/title_activity_cost2_3" >
         </activity>
         <activity
-            android:name=".cost2_4"
+            android:name=".RoomPartition"
             android:label="@string/title_activity_cost2_4" >
         </activity>
         <activity
@@ -103,11 +79,11 @@
             android:label="@string/title_activity_cost_wallpaper" >
         </activity>
         <activity
-            android:name=".calcurtainMtaki"
+            android:name=".EyeletCurtains"
             android:label="@string/title_activity_calcurtain_mtaki" >
         </activity>
         <activity
-            android:name=".settingMtaki"
+            android:name=".settingEyeletCurtain"
             android:label="@string/title_activity_setting_mtaki" >
         </activity>
 
@@ -116,10 +92,6 @@
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent" />
-        <activity
-            android:name=".costManbapsang"
-            android:label="@string/title_activity_cost_manbapsang" >
-        </activity>
         <activity
             android:name=".tabDesign"
             android:label="@string/title_activity_tab_design" >

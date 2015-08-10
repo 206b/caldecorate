@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.first.tripakey.caldecorate.CalCurtain2pup">
+    tools:context="com.first.tripakey.caldecorate.RomanBlind">
     <item android:id="@+id/action_settings"
         android:icon="@drawable/menu_ic"
         android:title="ตั้งค่า" />
