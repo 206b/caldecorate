@@ -9,64 +9,63 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.first.tripakey.caldecorate.decorate.BambooBlind;
+import com.first.tripakey.caldecorate.decorate.RollerBlind;
+import com.first.tripakey.caldecorate.decorate.VenetianBlind;
+import com.first.tripakey.caldecorate.decorate.WallPaper;
+import com.first.tripakey.caldecorate.decorate.RoomPartition;
+
 public class Tab1 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.tab_1,container,false);
-        Button bt1 =(Button)v.findViewById(R.id.bt_curtain);
-        Button bt2 =(Button)v.findViewById(R.id.manmonBt);
-        Button bt3 =(Button)v.findViewById(R.id.mooliBt);
-        Button bt4 =(Button)v.findViewById(R.id.mooliAlu);
-        Button bt5 =(Button)v.findViewById(R.id.manbupsangBt);
-        Button bt6 =(Button)v.findViewById(R.id.chag);
-        Button bt7 =(Button)v.findViewById(R.id.costManmonBt);
+        Button curtain =(Button)v.findViewById(R.id.bt_curtain);
+        Button manmon =(Button)v.findViewById(R.id.manmonBt);
+        Button mooli =(Button)v.findViewById(R.id.mooliBt);
+        Button mooliAlu =(Button)v.findViewById(R.id.mooliAlu);
+        Button chag =(Button)v.findViewById(R.id.chag);
+        Button wall =(Button)v.findViewById(R.id.wall);
 
-        bt1.setOnClickListener(new View.OnClickListener() {
+        curtain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), curtain.class);
+                Intent intent = new Intent(getActivity(), com.first.tripakey.caldecorate.decorate.curtain.class);
                 startActivity(intent);
             }
         });
-        bt2.setOnClickListener(new View.OnClickListener() {
+        manmon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), Manmon.class);
+                Intent intent = new Intent(getActivity(), RollerBlind.class);
                 startActivity(intent);
             }
         });
-        bt3.setOnClickListener(new View.OnClickListener() {
+        mooli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), mooli.class);
+                Intent intent = new Intent(getActivity(), BambooBlind.class);
                 startActivity(intent);
             }
         });
-        bt4.setOnClickListener(new View.OnClickListener() {
+        mooliAlu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), mooliAlu.class);
+                Intent intent = new Intent(getActivity(), VenetianBlind.class);
                 startActivity(intent);
             }
         });
-        bt5.setOnClickListener(new View.OnClickListener() {
+
+        chag.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), manbupsang.class);
+                Intent intent = new Intent(getActivity(), RoomPartition.class);
                 startActivity(intent);
             }
         });
-        bt6.setOnClickListener(new View.OnClickListener() {
+        wall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), Chagkanhong.class);
-                startActivity(intent);
-            }
-        });
-        bt7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), cost2.class);
+                Intent intent = new Intent(getActivity(), WallPaper.class);
                 startActivity(intent);
             }
         });

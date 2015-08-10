@@ -31,8 +31,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        // Creating The Toolbar and setting it as the Toolbar for the activity
+        setTitle(R.string.titleMain);
+        // Creating The Toolbar and settingPleatedCurtain it as the Toolbar for the activity
 
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
@@ -43,7 +43,7 @@ public class MainActivity extends ActionBarActivity {
         // Creating The ViewPagerAdapter and Passing Fragment Manager, Titles fot the Tabs and Number Of Tabs.
         adapter =  new ViewPagerAdapter(getSupportFragmentManager(),Titles,Numboftabs);
 
-        // Assigning ViewPager View and setting the adapter
+        // Assigning ViewPager View and settingPleatedCurtain the adapter
         pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(adapter);
 
@@ -66,6 +66,14 @@ public class MainActivity extends ActionBarActivity {
 
 
 
+    }
+
+
+    public void onBackPressed() {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
 
 

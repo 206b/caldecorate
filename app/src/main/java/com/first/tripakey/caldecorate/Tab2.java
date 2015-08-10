@@ -13,6 +13,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.first.tripakey.caldecorate.cost.costFurnitureFabrics;
+import com.first.tripakey.caldecorate.cost.costWallpaper;
+import com.first.tripakey.caldecorate.cost.cost_curtain;
+
 /**
  * Created by hp1 on 21-01-2015.
  */
@@ -26,14 +30,14 @@ public class Tab2 extends Fragment {
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), cost1.class);
+                Intent intent = new Intent(getActivity(), cost_curtain.class);
                 startActivity(intent);
             }
         });
         bt2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), cost1_2.class);
+                Intent intent = new Intent(getActivity(), costFurnitureFabrics.class);
                 startActivity(intent);
             }
         });

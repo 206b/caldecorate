@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/bt_curtain"
-
         android:text="ผ้าม่าน"
         />
     <Button
@@ -25,8 +24,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/mooliBt"
         android:layout_below="@+id/manmonBt"
-        android:text="มู่ลี่ไม้"
-        />
+        android:text="มู่ลี่ไม้" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,28 +32,20 @@
         android:layout_below="@+id/mooliBt"
         android:text="มู่ลี่อลู"
         />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/manbupsangBt"
-        android:layout_below="@+id/mooliAlu"
-        android:text="ม่านปรับแสง"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/chag"
-        android:layout_below="@+id/manbupsangBt"
-        android:text="ฉากกันห้อง"
-        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/costManmonBt"
-        android:layout_below="@+id/chag"
-        android:text="คำนวนม่านม้วน"
-        />
+        android:id="@+id/chag"
+        android:text="ฉากกันห้อง"
+        android:layout_below="@+id/mooliAlu" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wall"
+        android:text="วอลเปเปอร์"
+        android:layout_below="@+id/chag" />
 
 
 </RelativeLayout>
