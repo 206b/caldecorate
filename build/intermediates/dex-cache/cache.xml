@@ -6,182 +6,182 @@
         jumboMode="false"
         revision="21.1.2"
         sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-57bcc3c72aa74f9ccc70aca20ac10dd4c34a13ca.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-57bcc3c72aa74f9ccc70aca20ac10dd4c34a13ca.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-938484406ddb0e6ca64f6932f4f3667b3177d529.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-938484406ddb0e6ca64f6932f4f3667b3177d529.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-fc848710f52b211c91c59f5aa833df1d3771e3bb.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-fc848710f52b211c91c59f5aa833df1d3771e3bb.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-e7125e62ec9cd2f9769a1548d2d0488edb79f115.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-e7125e62ec9cd2f9769a1548d2d0488edb79f115.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-e9b94445d516be2faff7fc846041cb877dd9246f.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-e9b94445d516be2faff7fc846041cb877dd9246f.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-fcbece6f5b724abe3662d1c816a77da2922f9d14.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-fcbece6f5b724abe3662d1c816a77da2922f9d14.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-84c598cc093f02a274a726109e97dc715e68cbab.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-84c598cc093f02a274a726109e97dc715e68cbab.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-edcb5665be2cf0f7db778c78deff4e22d7121c5e.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-edcb5665be2cf0f7db778c78deff4e22d7121c5e.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-fbf6802a20dbe8f1a0d8d79aab6651aa8e300281.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-fbf6802a20dbe8f1a0d8d79aab6651aa8e300281.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-1463667b857bd85ef17780909d48c05ab079a976.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-1463667b857bd85ef17780909d48c05ab079a976.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-a330a80844f10d5fb9e1dea67c0d1a9ed75cd8f4.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-a330a80844f10d5fb9e1dea67c0d1a9ed75cd8f4.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-674e9df571e51000164c927915ad898f764d971c.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-674e9df571e51000164c927915ad898f764d971c.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-9514b78e48cd53618996b6a2b024f5d3e36bbb31.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-9514b78e48cd53618996b6a2b024f5d3e36bbb31.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-afc220772d18d1e4895a2c1db88ff731d20657b7.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-afc220772d18d1e4895a2c1db88ff731d20657b7.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="a1372c17fccacca753d3951d3ad820571cbce075">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-f8612876f40f1a0d760bc592506665fe9481397d.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-f8612876f40f1a0d760bc592506665fe9481397d.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-1b6e7258072f2017e98258b835e8a63d53c49538.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\internal_impl-22.0.0-1b6e7258072f2017e98258b835e8a63d53c49538.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-f2f35af2149005fd30d02086d86b8a7c6e7b2f3c.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-f2f35af2149005fd30d02086d86b8a7c6e7b2f3c.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-87f4ac3c24776e670160a7d313ffd541b6682d3b.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-87f4ac3c24776e670160a7d313ffd541b6682d3b.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-6d129c964aeffe92979a14366ad6f74a52eea083.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\internal_impl-22.0.0-6d129c964aeffe92979a14366ad6f74a52eea083.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="d405025c600055237c171a0bbabaa49d69696573">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-d5f33c9ab0748cb0f3213a1e713cd2fdf3045ae2.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-d5f33c9ab0748cb0f3213a1e713cd2fdf3045ae2.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-52d0069af456a739e923c7bb1e33d0a2964525bc.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-52d0069af456a739e923c7bb1e33d0a2964525bc.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="02bac2dc792d78241077861566f2c82da955e7fa">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-168e95fb1b116caea9092d5eb958c3530c266f73.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-168e95fb1b116caea9092d5eb958c3530c266f73.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-cd998bb1348c2d607a92faa2aab8dd208972971f.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\support-annotations-22.0.0-cd998bb1348c2d607a92faa2aab8dd208972971f.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-7392a3dce6783400f59bd620eb18f9da258d6ad7.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-7392a3dce6783400f59bd620eb18f9da258d6ad7.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="8d736fefa22d896e84a268354b3ed48a42663150">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-5c4f1871daac068818b3ad565502d420c83880d2.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-5c4f1871daac068818b3ad565502d420c83880d2.jar" />
     </item>
     <item
         jar="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\debug\classes-bc54afd12d69a8bce518855505e2d771abeb2567.jar" />
+        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\classes-bc54afd12d69a8bce518855505e2d771abeb2567.jar" />
     </item>
 
 </items>
