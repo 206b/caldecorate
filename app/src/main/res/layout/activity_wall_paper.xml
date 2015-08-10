@@ -348,9 +348,10 @@
                 android:textColor="#1A284F" />
         </TableRow>
 
-        <TableRow
+        <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
 
             <EditText
                 android:layout_width="0dp"
@@ -361,7 +362,7 @@
                 android:layout_column="0"
                 android:textColorHint="#afa3a3a3"
                 android:layout_weight="1"
-                android:hint="กว้าง/ซม." />
+                android:hint="กว้าง" />
 
             <EditText
                 android:layout_width="0dp"
@@ -370,15 +371,24 @@
                 android:ems="10"
                 android:id="@+id/useBlogLong_edt"
                 android:layout_weight="1"
-                android:hint="ยาว/ซม." />
+                android:hint="ยาว" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/useBlogUnit_edt"
+                android:layout_weight="1"
+                android:hint="ชุด" />
 
             <ImageButton
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="120dp"
+
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="เพิ่ม"
+                android:layout_weight="1"
                 android:id="@+id/addUse_edt" />
-        </TableRow>
+        </LinearLayout>
 
         <TableRow
             android:layout_width="fill_parent"
@@ -409,11 +419,7 @@
             android:orientation="vertical">
         </LinearLayout>
 
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
 
-        </TableRow>
 
         <TableRow
             android:layout_width="fill_parent"
@@ -428,7 +434,7 @@
                 android:layout_column="0" />
         </TableRow>
 
-        <TableRow
+        <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
 
@@ -440,7 +446,7 @@
                 android:id="@+id/emplyBlogWild_edt"
                 android:layout_column="0"
                 android:layout_weight="1"
-                android:hint="กว้าง/ซม." />
+                android:hint="กว้าง" />
 
             <EditText
                 android:layout_width="0dp"
@@ -449,16 +455,25 @@
                 android:ems="10"
                 android:id="@+id/emplyBlogLong_edt"
                 android:layout_weight="1"
-                android:hint="ยาว/ซม." />
+                android:hint="ยาว" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/emplyBlogUnit_edt"
+                android:layout_weight="1"
+                android:hint="ชุด" />
 
             <ImageButton
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="เพิ่ม"
+
                 android:id="@+id/addEmply_edt"
                 android:layout_weight="1" />
-        </TableRow>
+        </LinearLayout>
 
         <TableRow
             android:layout_width="fill_parent"

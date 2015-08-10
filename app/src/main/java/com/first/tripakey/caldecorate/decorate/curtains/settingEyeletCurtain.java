@@ -1,4 +1,4 @@
-package com.first.tripakey.caldecorate;
+package com.first.tripakey.caldecorate.decorate.curtains;
 //หลักการตั้งตัวเปรใน java = ชนิดตัวแปร(ย่อ)_ชื่อตัวแปลนั้น
 //หลักการตั้งตัวเปรใน xml  = ชื่อตัวแปลนั้น_ชนิดตัวแปร(ย่อ
 
@@ -16,6 +16,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.first.tripakey.caldecorate.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,7 +32,7 @@ public class settingEyeletCurtain extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle(R.string.settingmtk);
+        setTitle(R.string.setting_eyelte);
         setContentView(R.layout.activity_setting_eyelet_curtain);
         addI_spin();//สร้าง spinner
         chn = (Button) findViewById(R.id.changeSet_button);//ปุ่มบันทึกค่า

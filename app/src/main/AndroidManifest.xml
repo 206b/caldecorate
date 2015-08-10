@@ -27,63 +27,63 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".curtain"
+            android:name=".decorate.curtain"
             android:label="@string/title_activity_curtain" >
         </activity>
         <activity
-            android:name=".settingPleatedCurtain"
+            android:name=".decorate.curtains.settingPleatedCurtain"
             android:label="@string/title_activity_setting" >
         </activity>
         <activity
-            android:name=".PleatedCurtains"
+            android:name=".decorate.curtains.PleatedCurtains"
             android:label="@string/title_activity_cal_curtain" >
         </activity>
         <activity
-            android:name=".RomanBlind"
+            android:name=".decorate.curtains.RomanBlind"
             android:label="@string/title_activity_cal_curtain2pup" >
         </activity>
         <activity
-            android:name=".cost_curtain"
+            android:name=".cost.cost_curtain"
             android:label="@string/title_activity_cost1" >
         </activity>
         <activity
-            android:name=".WallPaper"
+            android:name=".decorate.WallPaper"
             android:label="@string/title_activity_wall_paper" >
         </activity>
         <activity
-            android:name=".settingRomanBlind"
+            android:name=".decorate.curtains.settingRomanBlind"
             android:label="@string/title_activity_setting_pup" >
         </activity>
         <activity
-            android:name=".RollerBlind"
+            android:name=".decorate.RollerBlind"
             android:label="@string/title_activity_cost2" >
         </activity>
         <activity
-            android:name=".costFurnitureFabrics"
+            android:name=".cost.costFurnitureFabrics"
             android:label="@string/title_activity_cost1_2" >
         </activity>
         <activity
-            android:name=".BambooBlind"
+            android:name=".decorate.BambooBlind"
             android:label="@string/title_activity_cost2_2" >
         </activity>
         <activity
-            android:name=".VenetianBlind"
+            android:name=".decorate.VenetianBlind"
             android:label="@string/title_activity_cost2_3" >
         </activity>
         <activity
-            android:name=".RoomPartition"
+            android:name=".decorate.RoomPartition"
             android:label="@string/title_activity_cost2_4" >
         </activity>
         <activity
-            android:name=".costWallpaper"
+            android:name=".cost.costWallpaper"
             android:label="@string/title_activity_cost_wallpaper" >
         </activity>
         <activity
-            android:name=".EyeletCurtains"
+            android:name=".decorate.curtains.EyeletCurtains"
             android:label="@string/title_activity_calcurtain_mtaki" >
         </activity>
         <activity
-            android:name=".settingEyeletCurtain"
+            android:name=".decorate.curtains.settingEyeletCurtain"
             android:label="@string/title_activity_setting_mtaki" >
         </activity>
 

@@ -31,7 +31,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        setTitle(R.string.titleMain);
         // Creating The Toolbar and settingPleatedCurtain it as the Toolbar for the activity
 
 

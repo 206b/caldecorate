@@ -1,4 +1,4 @@
-package com.first.tripakey.caldecorate;
+package com.first.tripakey.caldecorate.decorate;
 //หลักการตั้งตัวเปรใน java = ชนิดตัวแปร(ย่อ)_ชื่อตัวแปลนั้น
 //หลักการตั้งตัวเปรใน xml  = ชื่อตัวแปลนั้น_ชนิดตัวแปร(ย่อ
 
@@ -15,6 +15,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.first.tripakey.caldecorate.Global;
+import com.first.tripakey.caldecorate.MainActivity;
+import com.first.tripakey.caldecorate.R;
+import com.first.tripakey.caldecorate.decorate.curtains.RomanBlind;
+import com.first.tripakey.caldecorate.decorate.curtains.EyeletCurtains;
+import com.first.tripakey.caldecorate.decorate.curtains.PleatedCurtains;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 

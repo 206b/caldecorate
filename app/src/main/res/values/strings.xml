@@ -34,35 +34,28 @@
     <string name="title_activity_calcurtain_mtaki">calcurtainMtaki</string>
     <string name="title_activity_setting_mtaki">settingMtaki</string>
     <string name="banner_ad_unit_id">ca-app-pub-6053364159266545/9847224113</string>
+
     <string name="titleMain">หน้าหลัก</string>
-
-    <string name="titlecalcost">คำนวนค่าใช้จ่าย</string>
-    <string name="calcurtain">ม่านจีบ</string>
-    <string name="calcurtain2pup">ม่านพับ</string>
-    <string name="calcurtainmtk">ม่านตาไก่</string>
-    <string name="chagkanhong">ฉากกั้นห้อง</string>
-
-    <string name="cost">คำนวนค่าใช้จ่าย</string>
-    <string name="cost1">ค่าใช้จ่ายผ้าม่าน</string>
-    <string name="cost1_2">ค่าใช้จ่ายผ้าบุเฟอร์นิเจอร์</string>
-    <string name="cost2">ค่าใช้จ่ายม่านม้วน</string>
-    <string name="cost2_2">ค่าใช้จ่ายมู่ลี่ไม้</string>
-    <string name="cost2_3">ค่าใช้จ่ายมู่ลี่อลูมิเนียม</string>
-    <string name="cost2_4">ค่าใช้จ่ายฉากกั้นห้อง</string>
-
+    <string name="bambooblind">มู่ลี่ไม้</string>
+    <string name="curtain">ผ้าม่าน</string>
+    <string name="rollerblind">ม่านม้วน</string>
+    <string name="roompatition">ฉากกั้นห้อง</string>
+    <string name="venetianbline">มู่ลี่อลูมิเนียม</string>
     <string name="wallpeper">วอลเปเปอร์</string>
-    <string name="costwall">ค่าใช้จ่ายวอลเปเปอร์</string>
-    <string name="curtain">ผ้าม้าน</string>
-    <string name="manbupsang">ม่านปรับแสง</string>
-    <string name="manmon">ม่านม้วน</string>
-    <string name="mooli">มู่ลี่ไม้/มู่ลี่โฟมวู้ด</string>
-    <string name="mooli_alu">มู่ลี่อลูมิเนียม</string>
-    <string name="setting">ตั้งค่าม่านจีบ</string>
-    <string name="settingmtk">ตั้งค่าม่านตาไก่</string>
-    <string name="settingmp">ตั้งค่าม่านพับ</string>
-    <string name="title_activity_cost_manbapsang">costManbapsang</string>
-    <string name="title_activity_tab_design">tabDesign</string>
 
+    <string name="costwall">ค่าใช้จ่ายวอลเปเปอร์</string>
+    <string name="costfer">ค่าใช้จ่ายผ้าบุเฟอร์นิเจอร์์</string>
+    <string name="costcurtain">ค่าใช้จ่ายผ้าม่าน์</string>
+
+    <string name="pleated">ผ้าม่านจีบ</string>
+    <string name="eyelet">ผ้าม่านตาไก่</string>
+    <string name="romam">ผ้าม่านพับ</string>
+
+    <string name="setting_pleated">ตั้งค่าม่านจีบ</string>
+    <string name="setting_eyelte">ตั้งค่าม่านตาไก่</string>
+    <string name="setting_roman">ตั้งค่าม่านพับ</string>
+
+    <string name="title_activity_tab_design">tabDesign</string>
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>

@@ -1,4 +1,4 @@
-package com.first.tripakey.caldecorate;
+package com.first.tripakey.caldecorate.decorate.curtains;
 //หลักการตั้งตัวเปรใน java = ชนิดตัวแปร(ย่อ)_ชื่อตัวแปลนั้น
 //หลักการตั้งตัวเปรใน xml  = ชื่อตัวแปลนั้น_ชนิดตัวแปร(ย่อ
 
@@ -26,6 +26,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.first.tripakey.caldecorate.R;
+import com.first.tripakey.caldecorate.decorate.curtain;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -94,7 +96,7 @@ public class EyeletCurtains extends ActionBarActivity {
 ///////จบ2 copy แอดส่วนลดตาม
         super.onCreate(savedInstanceState);
 
-        setTitle(R.string.calcurtainmtk);
+        setTitle(R.string.eyelet);
         setContentView(R.layout.activity_eyelet_curtains);
 
 

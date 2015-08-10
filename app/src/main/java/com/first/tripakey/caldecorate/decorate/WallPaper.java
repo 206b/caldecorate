@@ -1,4 +1,4 @@
-package com.first.tripakey.caldecorate;
+package com.first.tripakey.caldecorate.decorate;
 //หลักการตั้งตัวเปรใน java = ชนิดตัวแปร(ย่อ)_ชื่อตัวแปลนั้น
 //หลักการตั้งตัวเปรใน xml  = ชื่อตัวแปลนั้น_ชนิดตัวแปร(ย่อ
 
@@ -7,8 +7,6 @@ import android.animation.LayoutTransition;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.text.Editable;
@@ -31,17 +29,12 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.app.Activity;
-import android.content.Context;
 
+import com.first.tripakey.caldecorate.MainActivity;
+import com.first.tripakey.caldecorate.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -54,44 +47,23 @@ public class WallPaper extends ActionBarActivity {
     static double           usetotal,
                              priceHandDoub,
                             addtotalW,
-                             addtotalL,
+                             addtotalL,addtotalUnit,
                             totalBht,
                            totalSquare,
                               areaAddU,
                                hand1,hand2,hand3,hand4,hand5,
                               areaAddE;
-    static EditText            testhand,  field1,field2,field3,field4,
-
-
-
-            priceEdt,
-
-
-                               edt_wallW,
-                                edt_wallL,
-                               edt_useW,
-                                edt_useL,
-                                edt_emplyW,
-                                edt_emplyL,
-                                hand1Edt,
-                              hand2Edt,
-                            hand3Edt;
-    static String       totalSqStr;
+    static EditText        testhand,field1,field2,field3,field4,priceEdt,edt_empUnit,
+                           edt_wallW, edt_wallL,edt_useW, edt_useUnit,edt_useL, edt_emplyW,edt_emplyL;
+    static String           totalSqStr;
     public String texttoshow,testStr;
-    public TextView mSquareTv,
-            handTv,
-            numWallTv,
-            sparWallTv,
-            hlaSqTV,
-            BhtTotalTv,
+    public TextView mSquareTv,numWallTv,
+            sparWallTv, BhtTotalTv,
             handtoTV,
             discountTv,
-
             addU_total_tv,
             addE_total_tv;
-    static Button   bt_cal,
-            bt_adduse,
-            bt_addemply;
+    static Button   bt_cal;
     long spar,num;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -116,9 +88,10 @@ public class WallPaper extends ActionBarActivity {
 
         edt_useW =(EditText) findViewById(R.id.useBlogWild_edt);
         edt_useL =(EditText) findViewById(R.id.useBlogLong_edt);
+        edt_useUnit  =(EditText) findViewById(R.id.useBlogUnit_edt);
         edt_wallW =(EditText) findViewById(R.id.wallWild_edt);
         edt_wallL =(EditText) findViewById(R.id.wallLong_edt);
-
+        edt_empUnit=(EditText) findViewById(R.id.emplyBlogUnit_edt);
         edt_emplyW =(EditText) findViewById(R.id.emplyBlogWild_edt);
         edt_emplyL =(EditText) findViewById(R.id.emplyBlogLong_edt);
        ImageButton bt_adduse = (ImageButton) findViewById(R.id.addUse_edt);
@@ -259,8 +232,8 @@ public class WallPaper extends ActionBarActivity {
             public void onClick(View arg0) {
 
                 if ((!edt_useW.getText().toString().trim().isEmpty()) &&
-                        (!edt_useL.getText().toString().trim().isEmpty()) ) {
-
+                        (!edt_useL.getText().toString().trim().isEmpty())&&
+                            (!edt_useUnit.getText().toString().trim().isEmpty())) {
                     LayoutInflater layoutInflater =
                             (LayoutInflater) getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                     final View addView = layoutInflater.inflate(R.layout.wallrow, null);
@@ -268,17 +241,22 @@ public class WallPaper extends ActionBarActivity {
                     textOut1.setText(edt_useW.getText().toString());
                     final TextView textOut2 = (TextView) addView.findViewById(R.id.ul);
                     textOut2.setText(edt_useL.getText().toString());
+                    final TextView textOut3 = (TextView) addView.findViewById(R.id.unit);
+                    textOut3.setText(edt_useUnit.getText().toString());
                     texttoshow = textOut1.getText().toString();
                     String addWstr = textOut1.getText().toString();
                     String addLstr = textOut2.getText().toString();
+                    String addUnitstr = textOut3.getText().toString();
                     addtotalW = Double.parseDouble(addWstr);
                     addtotalL = Double.parseDouble(addLstr);
-                    areaAddU = areaAddU + (addtotalW / 100) * (addtotalL / 100);
+                    addtotalUnit = Double.parseDouble(addUnitstr);
+                    areaAddU =( areaAddU + (addtotalW / 100) * (addtotalL / 100)*addtotalUnit);
                     DecimalFormat d2 = new DecimalFormat("0.00");
                     testStr = d2.format(areaAddU);
                     addU_total_tv.setText(testStr);
                     edt_useW.setText(" ");
                     edt_useL.setText(" ");
+                    edt_useUnit.setText(" ");
                     ImageButton remove = (ImageButton) addView.findViewById(R.id.remove);
                     remove.setImageResource(R.drawable.delete_ic);
                     remove.setOnClickListener(new OnClickListener() {
@@ -286,9 +264,11 @@ public class WallPaper extends ActionBarActivity {
                         public void onClick(View v) {
                             String addWstr = textOut1.getText().toString();
                             String addLstr = textOut2.getText().toString();
+                            String addUnitstr = textOut3.getText().toString();
                             addtotalW = Double.parseDouble(addWstr);
                             addtotalL = Double.parseDouble(addLstr);
-                            areaAddU = areaAddU - (addtotalW / 100) * (addtotalL / 100);
+                            addtotalUnit = Double.parseDouble(addUnitstr);
+                            areaAddU =( areaAddU -(addtotalW / 100) * (addtotalL / 100)*addtotalUnit);
                             DecimalFormat d2 = new DecimalFormat("0.00");
                             testStr = d2.format(areaAddU);
                             addU_total_tv.setText(testStr);
@@ -304,35 +284,44 @@ public class WallPaper extends ActionBarActivity {
             @Override
             public void onClick(View arg0) {
                 if ((!edt_emplyW.getText().toString().trim().isEmpty()) &&
-                        (!edt_emplyL.getText().toString().trim().isEmpty()) ) {
+                        (!edt_emplyL.getText().toString().trim().isEmpty())&&
+                        (!edt_empUnit.getText().toString().trim().isEmpty())) {
                     LayoutInflater layoutInflater =
                             (LayoutInflater) getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                    final View addView = layoutInflater.inflate(R.layout.wallrowemp, null);
-                    final TextView textOut1 = (TextView) addView.findViewById(R.id.ew);
+                    final View addView = layoutInflater.inflate(R.layout.wallrow, null);
+                    final TextView textOut1 = (TextView) addView.findViewById(R.id.uw);
                     textOut1.setText(edt_emplyW.getText().toString());
-                    final TextView textOut2 = (TextView) addView.findViewById(R.id.el);
+                    final TextView textOut2 = (TextView) addView.findViewById(R.id.ul);
                     textOut2.setText(edt_emplyL.getText().toString());
+                    final TextView textOut3 = (TextView) addView.findViewById(R.id.unit);
+                    textOut3.setText(edt_empUnit.getText().toString());
                     // texttoshow = textOut1.getText().toString();
-                    String addWstr = textOut1.getText().toString();
-                    String addLstr = textOut2.getText().toString();
-                    addtotalW = Double.parseDouble(addWstr);
-                    addtotalL = Double.parseDouble(addLstr);
-                    areaAddE = areaAddE + (addtotalW / 100) * (addtotalL / 100);
+                    String empWstr = textOut1.getText().toString();
+                    String empLstr = textOut2.getText().toString();
+                    String empUnitstr = textOut3.getText().toString();
+                    Double empTotalW = Double.parseDouble(empWstr);
+                    Double empTotalL = Double.parseDouble(empLstr);
+                    Double empTotalUnit = Double.parseDouble(empUnitstr);
+
+                    areaAddE = (areaAddE + (empTotalW / 100) * (empTotalL / 100)*empTotalUnit);
                     DecimalFormat d2 = new DecimalFormat("0.00");
                     testStr = d2.format(areaAddE);
                     addE_total_tv.setText(testStr);
                     edt_emplyW.setText(" ");
                     edt_emplyL.setText(" ");
+                    edt_empUnit.setText(" ");
                     ImageButton remove = (ImageButton) addView.findViewById(R.id.remove);
                     remove.setImageResource(R.drawable.delete_ic);
                     remove.setOnClickListener(new OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            String addWstr = textOut1.getText().toString();
-                            String addLstr = textOut2.getText().toString();
-                            addtotalW = Double.parseDouble(addWstr);
-                            addtotalL = Double.parseDouble(addLstr);
-                            areaAddE = areaAddE - (addtotalW / 100) * (addtotalL / 100);
+                            String empWstr = textOut1.getText().toString();
+                            String empLstr = textOut2.getText().toString();
+                            String empUnitstr = textOut3.getText().toString();
+                            Double empTotalW = Double.parseDouble(empWstr);
+                            Double empTotalL = Double.parseDouble(empLstr);
+                            Double empTotalUnit = Double.parseDouble(empUnitstr);
+                            areaAddE = (areaAddE - (empTotalW / 100) * (empTotalL / 100)*empTotalUnit);
                             DecimalFormat d2 = new DecimalFormat("0.00");
                             testStr = d2.format(areaAddE);
                             addE_total_tv.setText(testStr);

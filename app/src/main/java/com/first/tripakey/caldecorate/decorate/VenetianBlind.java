@@ -1,4 +1,4 @@
-package com.first.tripakey.caldecorate;
+package com.first.tripakey.caldecorate.decorate;
 //หลักการตั้งตัวเปรใน java = ชนิดตัวแปร(ย่อ)_ชื่อตัวแปลนั้น
 //หลักการตั้งตัวเปรใน xml  = ชื่อตัวแปลนั้น_ชนิดตัวแปร(ย่อ
 
@@ -19,12 +19,15 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.first.tripakey.caldecorate.MainActivity;
+import com.first.tripakey.caldecorate.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -32,7 +35,7 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-public class costFurnitureFabrics extends ActionBarActivity {
+public class VenetianBlind extends ActionBarActivity {
 /////เริ่ม1 copy แอดส่วนลดตาม
 
     LinearLayout container,container2,discountF;
@@ -43,34 +46,39 @@ public class costFurnitureFabrics extends ActionBarActivity {
     ///////จบ1 copy แอดส่วนลดตาม
     public Spinner spin_cost1;//แสดงชื้อบริษัทจำหน่ายผ้าม้าน
 
-    static Double priceUse_d;
+    public Double priceUse_d,areaAddU,fabtotal;
+    static String testStr;
 
 
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setTitle(R.string.cost);
-        setContentView(R.layout.activity_cost_furniture_fabrics);
-
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
-
-        cost1addCompunny();
-/////เริ่ม2 copy แอดส่วนลดตาม
+        /////เริ่ม2 copy แอดส่วนลดตาม
         onstart=0;
         hand1 = 0.0;
         hand2 = 0.0;
         hand3 = 0.0;
         hand4 = 0.0;
         hand5 = 0.0;
+        areaAddU=0.0;
+        fabtotal=0.0;
 ///////จบ2 copy แอดส่วนลดตาม
 
-        final EditText price = (EditText) findViewById(R.id.price);
-        final EditText fab = (EditText) findViewById(R.id.fab);
+        super.onCreate(savedInstanceState);
+        setTitle(R.string.venetianbline);
+        setContentView(R.layout.activity_venetian_blind);
 
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+        cost1addCompunny();
+
+        final EditText price = (EditText) findViewById(R.id.price);
+
+        final TextView fab = (TextView) findViewById(R.id.fab);
+        final EditText motor = (EditText) findViewById(R.id.motorEdt);
 
 
         final TextView priceUse = (TextView) findViewById(R.id.priceUse);
@@ -81,15 +89,79 @@ public class costFurnitureFabrics extends ActionBarActivity {
 
 
         final CheckBox vat = (CheckBox) findViewById(R.id.vat);
-///เริ่ม3 copy แอดส่วนลดตาม
+        final CheckBox motor_chk = (CheckBox) findViewById(R.id.motor);
+        //////เริ่ม3 copy แอดส่วนลดตาม
         container = (LinearLayout)findViewById(R.id.container);
         container2= (LinearLayout)findViewById(R.id.container2);
         discountF = (LinearLayout)findViewById(R.id.discountReq);
         testhand = (EditText)findViewById(R.id.handi1_edittxt);
-
         ImageView imgView = (ImageView)findViewById(R.id.ban_ic);
         imgView.setImageResource(R.drawable.ban_ic);
 
+        final EditText wild_in=(EditText)findViewById(R.id.wildIn);
+        final EditText long_in=(EditText)findViewById(R.id.longIn);
+        ImageButton bt_addSq =(ImageButton)findViewById(R.id.addSq);
+        final EditText unit_in=(EditText)findViewById(R.id.unit_edt);
+        bt_addSq.setImageResource(R.drawable.add_ic);
+
+
+        bt_addSq.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+
+                if ((!wild_in.getText().toString().trim().isEmpty()) &&
+                        (!long_in.getText().toString().trim().isEmpty())&&
+                        (!unit_in.getText().toString().trim().isEmpty())){
+                    LayoutInflater layoutInflater =
+                            (LayoutInflater) getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                    final View addView = layoutInflater.inflate(R.layout.wallrow, null);
+                    final TextView textOut1 = (TextView) addView.findViewById(R.id.uw);
+                    textOut1.setText(wild_in.getText().toString());
+                    final TextView textOut2 = (TextView) addView.findViewById(R.id.ul);
+                    textOut2.setText(long_in.getText().toString());
+                    final TextView textOut3 = (TextView) addView.findViewById(R.id.unit);
+                    textOut3.setText(unit_in.getText().toString());
+                    // texttoshow = textOut1.getText().toString();
+                    final String[] addWstr = {textOut1.getText().toString()};
+                    final String[] addLstr = {textOut2.getText().toString()};
+                    final String[] addUnitTr = {textOut3.getText().toString()};
+
+                    final Double[] addtotalW = {Double.parseDouble(addWstr[0])};
+                    final Double[] addtotalL = {Double.parseDouble(addLstr[0])};
+                    final Double[] addTotalUnit = {Double.parseDouble(addUnitTr[0])};
+                    areaAddU =( areaAddU + ((addtotalW[0] / 100) * (addtotalL[0] / 100)*addTotalUnit[0]));
+                    DecimalFormat d2 = new DecimalFormat("0.00");
+                    testStr = d2.format(areaAddU);
+                    fabtotal = Double.parseDouble(testStr);
+                    fab.setText(testStr);
+                    wild_in.setText(" ");
+                    long_in.setText(" ");
+                    unit_in.setText(" ");
+                    ImageButton remove = (ImageButton) addView.findViewById(R.id.remove);
+                    remove.setImageResource(R.drawable.delete_ic);
+                    remove.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            String addWstr = textOut1.getText().toString();
+                            String addLstr = textOut2.getText().toString();
+                            String addUnit = textOut3.getText().toString();
+                            addtotalW[0] = Double.parseDouble(addWstr);
+                            addtotalL[0] = Double.parseDouble(addLstr);
+                            addTotalUnit[0] = Double.parseDouble(addUnit);
+                            areaAddU = (areaAddU - ((addtotalW[0] / 100) * (addtotalL[0] / 100)*addTotalUnit[0]));
+                            DecimalFormat d2 = new DecimalFormat("0.00");
+                            testStr = d2.format(areaAddU);
+                            fabtotal = Double.parseDouble(testStr);
+                            fab.setText(testStr);
+                            ((LinearLayout) addView.getParent()).removeView(addView);
+                        }
+                    });
+                    container.addView(addView);
+
+                } else
+                    Toast.makeText(getApplicationContext(), "กรุณากรอกข้อมูล", Toast.LENGTH_LONG).show();
+            }
+        });
         testhand.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -199,17 +271,19 @@ public class costFurnitureFabrics extends ActionBarActivity {
 
 
 
-        ///////จบ3 copy แอดส่วนลด
+        ///////จบ3 copy แอดส่วนลดต
         cal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if          ((!price.getText().toString().trim().isEmpty())&&
                         (!fab.getText().toString().trim().isEmpty())){
                     Boolean cvat = vat.isChecked();
+                    Boolean motorBoolin = motor_chk.isChecked();
 
                     Double price_d = Double.parseDouble(price.getText().toString());
-                    Double fab_d = Double.parseDouble(fab.getText().toString());
-                    //เริ่ม4 copy แอดส่วนลดตาม
+
+
+                    ///เริ่ม4 copy แอดส่วนลดตาม
                     priceUse_d=price_d;
                     switch (onstart){
                         case 0:
@@ -276,14 +350,21 @@ public class costFurnitureFabrics extends ActionBarActivity {
 
                     ///////จบ4 copy แอดส่วนลดตาม
 
+
                     if(cvat==true){
                         priceUse_d = priceUse_d+priceUse_d*0.07;
 
                     }
-
                     Double discount_d=price_d-priceUse_d;
-                    Double totalBht_d=priceUse_d*fab_d;
+                    Double totalBht_d=priceUse_d*fabtotal;
+                    Double motor_d=0.0;
+                    if(motorBoolin==true){
+                        if  (!motor.getText().toString().trim().isEmpty()){
+                            motor_d = Double.parseDouble(motor.getText().toString());
+                        }else Toast.makeText(getApplicationContext(),"กรุณากรอกราคามอเตอร์",Toast.LENGTH_SHORT).show();
+                        totalBht_d=totalBht_d+motor_d;
 
+                    }
                     DecimalFormat d4 = new DecimalFormat("0.0000");
                     DecimalFormat d2 = new DecimalFormat("0.00");
 
@@ -317,16 +398,15 @@ public class costFurnitureFabrics extends ActionBarActivity {
     @Override
     public void onBackPressed() {
 
-        startActivity(new Intent(costFurnitureFabrics.this, MainActivity.class));
+        startActivity(new Intent(VenetianBlind.this, MainActivity.class));
 
     }
-
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_cost1_2, menu);
+        inflater.inflate(R.menu.menu_cost2_3, menu);
         return true;
     }
     @Override
@@ -348,6 +428,7 @@ public class costFurnitureFabrics extends ActionBarActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
+
 
 
 }

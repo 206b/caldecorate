@@ -9,6 +9,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.first.tripakey.caldecorate.decorate.BambooBlind;
+import com.first.tripakey.caldecorate.decorate.RollerBlind;
+import com.first.tripakey.caldecorate.decorate.VenetianBlind;
+import com.first.tripakey.caldecorate.decorate.WallPaper;
+import com.first.tripakey.caldecorate.decorate.RoomPartition;
+
 public class Tab1 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -23,7 +29,7 @@ public class Tab1 extends Fragment {
         curtain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), curtain.class);
+                Intent intent = new Intent(getActivity(), com.first.tripakey.caldecorate.decorate.curtain.class);
                 startActivity(intent);
             }
         });
