@@ -1,7 +1,10 @@
 package com.first.tripakey.caldecorate;
 
 
+import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -25,6 +28,9 @@ public class MainActivity extends ActionBarActivity {
     SlidingTabLayout tabs;
     CharSequence Titles[]={"ตกแต่งภายใน","คำนวนค่าใช้จ่าย"};
     int Numboftabs =2;
+    boolean check_firsttime = false ;
+    public static final String PREFS_NAME = "MyPrefsFile";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +44,19 @@ public class MainActivity extends ActionBarActivity {
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+        ///at first time
+        SharedPreferences save_first_time = getPreferences(0);
+        check_firsttime = save_first_time.getBoolean("first_time", false);
 
+        if(check_firsttime == false){
+            onStop();
+           ////////
+            final AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+            alertDialog.setTitle("First Time");
+            alertDialog.setMessage("ยินดีต้อนรับเข้าสู่ CalDecorate");
+            alertDialog.show();
+
+        }
 
         // Creating The ViewPagerAdapter and Passing Fragment Manager, Titles fot the Tabs and Number Of Tabs.
         adapter =  new ViewPagerAdapter(getSupportFragmentManager(),Titles,Numboftabs);
@@ -66,6 +84,19 @@ public class MainActivity extends ActionBarActivity {
 
 
 
+    }
+
+    protected void onStop(){
+        super.onStop();
+
+        // We need an Editor object to make preference changes.
+        // All objects are from android.context.Context
+        SharedPreferences save_first_time = getPreferences(0);
+        SharedPreferences.Editor editor = save_first_time.edit();
+        editor.putBoolean("first_time", true);
+
+        // Commit the edits!
+        editor.commit();
     }
 
 
