@@ -16,7 +16,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.first.tripakey.caldecorate.Global;
-import com.first.tripakey.caldecorate.MainActivity;
+import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.R;
 import com.first.tripakey.caldecorate.decorate.curtains.RomanBlind;
 import com.first.tripakey.caldecorate.decorate.curtains.EyeletCurtains;
