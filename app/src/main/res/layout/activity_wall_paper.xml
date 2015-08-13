@@ -261,7 +261,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="*ขนาดพื้นที่ผนัง(ตร.ม.)"
+                android:text="*ขนาดพื้นที่ผนัง(ซ.ม.)"
                 android:id="@+id/textView10"
                 android:layout_column="0"
                 android:textColor="#1A284F" />
@@ -291,14 +291,7 @@
                 android:id="@+id/useBlogLong_edt"
                 android:layout_weight="1"
                 android:hint="ยาว" />
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:inputType="number"
-                android:ems="10"
-                android:id="@+id/useBlogUnit_edt"
-                android:layout_weight="1"
-                android:hint="ชุด" />
+
 
             <ImageButton
                 style="?android:attr/buttonStyleSmall"
@@ -328,6 +321,11 @@
                 android:id="@+id/addAreaTotal"
                 android:layout_column="0"
                 android:layout_weight="1" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ตร.ม."
+                android:layout_weight="1" />
 
         </TableRow>
 
@@ -348,7 +346,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="*ขนาดพื้นที่ว่าง(ตร.ม)"
+                android:text="*ขนาดพื้นที่ว่าง(ซ.ม)"
                 android:id="@+id/textView15"
                 android:layout_column="0" />
         </TableRow>
@@ -376,14 +374,6 @@
                 android:layout_weight="1"
                 android:hint="ยาว" />
 
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:inputType="number"
-                android:ems="10"
-                android:id="@+id/emplyBlogUnit_edt"
-                android:layout_weight="1"
-                android:hint="ชุด" />
 
             <ImageButton
                 style="?android:attr/buttonStyleSmall"
@@ -413,6 +403,11 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/addEmpTotal"
+                android:layout_weight="1" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ตร.ม."
                 android:layout_weight="1" />
         </LinearLayout>
 
@@ -540,7 +535,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="จำนวนวอลเปเปอร์ที่ใช้  เผื่อไปแล้ว (ม้วน)"
+                android:text="จำนวนวอลเปเปอร์ที่ใช้  ควรเผื่อวอลฯ (ม้วน)"
                 android:id="@+id/textView20"
                 android:layout_column="0" />
 

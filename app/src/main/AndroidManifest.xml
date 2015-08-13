@@ -104,6 +104,10 @@
             android:name=".first_Time.firstTime"
             android:label="@string/title_activity_first_time" >
         </activity>
+        <activity
+            android:name=".transUnit"
+            android:label="@string/title_activity_trans_unit" >
+        </activity>
     </application>
 
 </manifest>

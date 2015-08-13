@@ -82,9 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
                 android:inputType="numberDecimal"
-                android:ems="10"
-                android:id="@+id/editText"
-                android:layout_column="0"/>
+                android:id="@+id/editText"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -115,9 +113,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
                 android:inputType="numberDecimal"
-                android:ems="10"
-                android:id="@+id/fabWcost1_edt"
-                android:layout_column="0"/>
+                android:id="@+id/fabWcost1_edt"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -148,16 +144,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
                 android:inputType="numberDecimal"
-                android:ems="10"
-                android:id="@+id/price"
-                android:layout_column="0"/>
+                android:id="@+id/price"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="บาท/หลา"
+                android:text="บาท/ตร.ม."
                 android:id="@+id/textView55" />
         </LinearLayout>
 
@@ -240,9 +234,23 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="X"  />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/UnitMotor"
+                android:inputType="number"
+                android:hint="1"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="x1 ชุด"
+                android:text="ชุด"
                 android:id="@+id/textView58" />
         </LinearLayout>
 
@@ -282,7 +290,7 @@
                 android:inputType="number"
                 android:layout_weight="1"
                 android:textSize="20dp"
-                android:hint="ยาว" />
+                android:hint="สูง" />
 
             <EditText
                 android:layout_width="0dp"
@@ -308,7 +316,20 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
         </LinearLayout>
-
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="คำนวน"
+            android:id="@+id/cal"
+            android:layout_column="0"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:enabled="true"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:layout_weight="1"
+            android:background="#27ae60" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -347,20 +368,7 @@
 
 
 
-            <Button
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="คำนวน"
-                android:id="@+id/cal"
-                android:layout_column="0"
-                android:textColor="#ffffffff"
-                android:textSize="30dp"
-                android:enabled="true"
-                android:focusableInTouchMode="false"
-                android:focusable="false"
-                android:layout_weight="1"
-                android:background="#27ae60" />
+
 
 
 
@@ -373,7 +381,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="ราคาส่วนลด บาท/ตร.ม."
+                android:text="ราคาส่วนลด "
                 android:id="@+id/handOUT_textView"
                 android:layout_column="0"
                 android:textColor="#1A284F"
@@ -403,6 +411,11 @@
                 android:textColor="#ffff322b"
                 android:layout_weight="0.5"
                 android:nestedScrollingEnabled="false" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="บาท/ตร.ม."/>
 
             <TextView
                 android:layout_width="0dp"
@@ -411,6 +424,11 @@
                 android:id="@+id/discount"
                 android:layout_column="1"
                 android:layout_weight="0.5" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="บาท"/>
         </LinearLayout>
 
 
@@ -418,19 +436,30 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="รวมเป็นเงินทั้งสิ้น/บาท"
+                android:text="รวมเป็นเงินทั้งสิ้น"
                 android:id="@+id/totalpriceOUT_textView"
                 android:layout_column="0"
                 android:textColor="#1A284F" />
 
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:id="@+id/totalBht"
                 android:layout_column="0"
                 android:textColor="#ffff322b" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="บาท"/>
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>

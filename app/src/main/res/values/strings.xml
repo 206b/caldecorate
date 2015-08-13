@@ -36,7 +36,7 @@
     <string name="banner_ad_unit_id">ca-app-pub-6053364159266545/9847224113</string>
 
     <string name="titleMain">หน้าหลัก</string>
-    <string name="bambooblind">มู่ลี่ไม้</string>
+    <string name="bambooblind">มู่ลี่ไม้ / มู่ลี่โฟมวู๊ด</string>
     <string name="curtain">ผ้าม่าน</string>
     <string name="rollerblind">ม่านม้วน</string>
     <string name="roompatition">ฉากกั้นห้อง</string>
@@ -78,6 +78,7 @@
         <item>RotateDown</item>
         <item>Accordion</item>
     </string-array>
+    <string name="title_activity_trans_unit">transUnit</string>
 
 
 </resources>

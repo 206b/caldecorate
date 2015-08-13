@@ -1,6 +1,7 @@
 package com.first.tripakey.caldecorate.main;
 
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v4.view.ViewPager;
@@ -10,7 +11,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.first.tripakey.caldecorate.R;
+import com.first.tripakey.caldecorate.decorate.curtains.EyeletCurtains;
+import com.first.tripakey.caldecorate.decorate.curtains.settingEyeletCurtain;
 import com.first.tripakey.caldecorate.first_Time.firstTime;
+import com.first.tripakey.caldecorate.transUnit;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -109,17 +113,13 @@ public class MainActivity extends ActionBarActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch (item.getItemId()) {
+            case R.id.trans:
+                startActivity(new Intent(MainActivity.this, transUnit.class));
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
-
-        return super.onOptionsItemSelected(item);
     }
 
 }

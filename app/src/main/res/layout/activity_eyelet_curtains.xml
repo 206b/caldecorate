@@ -23,15 +23,6 @@
 
         >
 
-
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:id="@+id/textView32" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -121,6 +112,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
+                android:text="*ราคา"
                 android:id="@+id/priceInput_textView"
                 android:textColor="#1A284F" />
 
@@ -298,7 +290,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="จำนวนชิ้นผ้า/ชิ้น"
+                android:text="จำนวนชิ้นผ้า"
                 android:id="@+id/piceOUT_textView12"
                 android:layout_column="0"
                 android:textColor="#1A284F" />
@@ -315,6 +307,12 @@
                 android:layout_weight="2"
                 android:id="@+id/numPiece_textview"
                 android:textColor="#ffff322b" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="ชิ้น"/>
+
 
             <TextView
                 android:layout_width="0dp"
@@ -327,42 +325,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:id="@+id/textView13"
-                android:layout_column="0" />
-
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="จำนวนผ้าม่านที่ต้องการ"
+                android:text="จำนวนผ้าม่านที่ต้องใช้"
                 android:id="@+id/longOUT_textview"
                 android:layout_column="0"
                 android:textColor="#1A284F" />
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="ในหน่วยหลา"
-                android:id="@+id/longm2OUT_textView"
-                android:textColor="#1A284F"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="ในหน่วยเมตร"
-                android:id="@+id/longmOUT_textView"
-                android:textColor="#1A284F"/>
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -375,6 +344,14 @@
                 android:layout_weight="2"
                 android:id="@+id/thaimetrePiece_textview"
                 android:textColor="#ffff322b"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="หลา"
+
+                android:layout_column="0"
+                android:textColor="#1A284F"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -382,15 +359,15 @@
                 android:layout_weight="2"
                 android:id="@+id/metrePiece_textview"
                 android:textColor="#ffff322b" />
-        </LinearLayout>
-
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:id="@+id/textView12"
-                android:layout_column="0" />
+                android:layout_weight="2"
+                android:text="เมตร"
 
+                android:layout_column="1"
+                android:textColor="#1A284F"/>
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -401,7 +378,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="ราคาส่วนลด/หลา"
+                android:text="ราคาส่วนสุทธิ"
                 android:id="@+id/handOUT_textView"
                 android:textColor="#1A284F" />
 
@@ -425,6 +402,11 @@
                 android:layout_weight="2"
                 android:id="@+id/lastHandi_textview"
                 android:textColor="#ffff322b" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="บาท/หลา"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -432,34 +414,43 @@
                 android:layout_weight="2"
                 android:id="@+id/handLess"
                 android:textColor="#ff491fff" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="บาท"/>
         </LinearLayout>
 
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:id="@+id/textView14"
-                android:layout_column="0" />
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="รวมเป็นเงินทั้งสิ้น/บาท"
+                android:text="รวมเป็นเงินทั้งสิ้น"
                 android:id="@+id/totalpriceOUT_textView"
                 android:layout_column="0"
                 android:textColor="#1A284F" />
 
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:id="@+id/totalPrice_textview"
                 android:layout_column="0"
                 android:textColor="#ffff322b"
                 android:textSize="20dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="บาท"/>
 
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
     <com.google.android.gms.ads.AdView
