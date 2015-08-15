@@ -39,7 +39,8 @@ public class RomanBlind extends ActionBarActivity {
     LinearLayout container,container2,discountF;
     static EditText            testhand,  field1,field2,field3,field4;
     public  Integer onstart;
-    static Double   hand1,hand2,hand3,hand4,hand5;
+    static Double   hand1,hand2,hand3,hand4,hand5,g;
+    static TextView numM;
 
     ///////จบ1 copy แอดส่วนลดตาม
     @Override
@@ -51,6 +52,8 @@ public class RomanBlind extends ActionBarActivity {
         hand3 = 0.0;
         hand4 = 0.0;
         hand5 = 0.0;
+        g=0.0;
+
 ///////จบ2 copy แอดส่วนลดตาม
         super.onCreate(savedInstanceState);
         setTitle(R.string.romam);
@@ -65,7 +68,7 @@ public class RomanBlind extends ActionBarActivity {
       //  String stg_sharD = spp.getString("My_ValueD", "2.5");
         String stg_sharE = spp.getString("My_ValueEpup", "10.0");
         String stg_sharF = spp.getString("My_ValueFpup", "10.0");
-        String stg_sharG = spp.getString("My_ValueGpup", "30.0");
+        String stg_sharG = spp.getString("My_ValueGpup", "15.0");
         String stg_sharH = spp.getString("My_ValueHpup", "30.0");
         String stg_sharI = spp.getString("My_ValueIpup", "10.0");
         String stg_sharJ = spp.getString("My_ValueJpup", "50.0");
@@ -73,10 +76,11 @@ public class RomanBlind extends ActionBarActivity {
       //  double_d = Double.parseDouble(stg_sharD);
         final Double e = Double.parseDouble(stg_sharE);
         final Double f = Double.parseDouble(stg_sharF);
-        final Double g = Double.parseDouble(stg_sharG);
+          g = Double.parseDouble(stg_sharG);
         final  Double h = Double.parseDouble(stg_sharH);
         final  Double i  = Double.parseDouble(stg_sharI);
         final Double j = Double.parseDouble(stg_sharJ);
+
         addcomp();
 
         final EditText  w_edt = (EditText) findViewById(R.id.w);
@@ -93,6 +97,7 @@ public class RomanBlind extends ActionBarActivity {
         final TextView priceUse_tv = (TextView) findViewById(R.id.priceUse);
         final TextView discount_tv = (TextView) findViewById(R.id.discount);
         final TextView totalBht_tv = (TextView) findViewById(R.id.totalBht);
+        numM=(TextView)findViewById(R.id.numM);
 
 
         Button cal_bt = (Button) findViewById(R.id.cal);
@@ -100,7 +105,7 @@ public class RomanBlind extends ActionBarActivity {
 
         final CheckBox vat = (CheckBox) findViewById(R.id.vat);
 
-
+        g = g*2.0;
         //////เริ่ม3 copy แอดส่วนลดตาม
         container = (LinearLayout)findViewById(R.id.container);
         container2= (LinearLayout)findViewById(R.id.container2);
@@ -331,7 +336,8 @@ public class RomanBlind extends ActionBarActivity {
                     DecimalFormat d2 = new DecimalFormat("0.00");
                     DecimalFormat d1 = new DecimalFormat("0.0");
 
-                    totalpeice_tv.setText(d2.format(numPiece) + "   =   " + numPieceInter);
+                    totalpeice_tv.setText(d2.format(numPieceInter));
+                    numM.setText(d2.format(numPiece));
                     metreOut_tv.setText(d4.format(metre));
                     ydOut_tv.setText(d4.format(yd));
                     priceUse_tv.setText(d2.format(priceUse));

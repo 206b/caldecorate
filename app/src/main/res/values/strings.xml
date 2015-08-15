@@ -79,6 +79,7 @@
         <item>Accordion</item>
     </string-array>
     <string name="title_activity_trans_unit">transUnit</string>
+    <string name="title_activity_tab3">Tab3</string>
 
 
 </resources>

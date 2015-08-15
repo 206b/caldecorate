@@ -1,7 +1,11 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#34495e">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
         android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -129,7 +133,7 @@
                 android:ems="10"
                 android:id="@+id/setG_edittext"
                 android:layout_column="0"
-                android:hint="30 ซม"
+                android:hint="15 ซม"
                 android:textColorHint="#afa3a3a3"
                 android:layout_weight="2"
                 android:textColor="#f39c12" />
@@ -313,4 +317,5 @@
 
         </TableRow>
     </TableLayout>
+    </ScrollView>
 </RelativeLayout>

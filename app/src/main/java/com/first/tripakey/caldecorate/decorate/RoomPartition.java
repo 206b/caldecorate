@@ -63,6 +63,7 @@ public class RoomPartition extends ActionBarActivity {
         mAdView.loadAd(adRequest);
 
         cost1addCompunny();
+        cost1addhight();
         /////เริ่ม2 copy แอดส่วนลดตาม
         onstart=0;
         hand1 = 0.0;

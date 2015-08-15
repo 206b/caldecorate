@@ -326,6 +326,17 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="2"
+        android:id="@+id/numM"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="เมตร"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
         android:id="@+id/totalPiece"
         android:layout_column="0"
         android:textColor="#ffff322b" />

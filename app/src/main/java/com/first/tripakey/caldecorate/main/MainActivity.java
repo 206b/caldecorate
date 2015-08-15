@@ -1,7 +1,6 @@
 package com.first.tripakey.caldecorate.main;
 
 
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v4.view.ViewPager;
@@ -11,10 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.first.tripakey.caldecorate.R;
-import com.first.tripakey.caldecorate.decorate.curtains.EyeletCurtains;
-import com.first.tripakey.caldecorate.decorate.curtains.settingEyeletCurtain;
 import com.first.tripakey.caldecorate.first_Time.firstTime;
-import com.first.tripakey.caldecorate.transUnit;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -27,8 +23,8 @@ public class MainActivity extends ActionBarActivity {
     ViewPager pager;
     ViewPagerAdapter adapter;
     SlidingTabLayout tabs;
-    CharSequence Titles[]={"ตกแต่งภายใน","คำนวนค่าใช้จ่าย"};
-    int Numboftabs =2;
+    CharSequence Titles[]={"ตกแต่งภายใน","คำนวนค่าใช้จ่าย","แปลงหน่วย"};
+    int Numboftabs =3;
     boolean check_firsttime = false ;
     public static final String PREFS_NAME = "MyPrefsFile";
 
@@ -114,9 +110,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.trans:
-                startActivity(new Intent(MainActivity.this, transUnit.class));
-                return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }

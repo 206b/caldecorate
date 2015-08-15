@@ -105,8 +105,8 @@
             android:label="@string/title_activity_first_time" >
         </activity>
         <activity
-            android:name=".transUnit"
-            android:label="@string/title_activity_trans_unit" >
+            android:name=".main.Tab3"
+            android:label="@string/title_activity_tab3" >
         </activity>
     </application>
 

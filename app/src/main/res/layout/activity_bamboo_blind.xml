@@ -280,6 +280,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
     </LinearLayout>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="คำนวน"
+        android:id="@+id/cal"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        android:enabled="true"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:background="#27ae60"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -296,7 +308,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:inputType="numberDecimal"
                 android:id="@+id/fab"
                 android:textColorHint="#afa3a3a3" />
@@ -309,18 +321,7 @@
                 android:id="@+id/textView59" />
         </LinearLayout>
 
-            <Button
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="คำนวน"
-                android:id="@+id/cal"
-                android:textColor="#ffffffff"
-                android:textSize="30dp"
-                android:enabled="true"
-                android:focusableInTouchMode="false"
-                android:focusable="false"
-                android:background="#27ae60"/>
+
 
 
     <LinearLayout

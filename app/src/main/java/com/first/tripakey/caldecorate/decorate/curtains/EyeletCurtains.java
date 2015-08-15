@@ -76,6 +76,7 @@ public class EyeletCurtains extends ActionBarActivity {
             stg_numWin;
     static TextView txtV_totalPrice,
             txtV_numPiece,
+    numM,
             txtV_metrePiece, txtV_thaimetrePiece,
             txtV_lastHandi,
             txtV_nameCur,
@@ -110,7 +111,7 @@ public class EyeletCurtains extends ActionBarActivity {
         String stg_sharD = sp.getString("My_ValueDtaki", "2.5");
         String stg_sharE = sp.getString("My_ValueEtaki", "10.0");
         String stg_sharF = sp.getString("My_ValueFtaki", "10.0");
-        String stg_sharG = sp.getString("My_ValueGtaki", "30.0");
+        String stg_sharG = sp.getString("My_ValueGtaki", "15.0");
         String stg_sharH = sp.getString("My_ValueHtaki", "30.0");
         String stg_sharI = sp.getString("My_ValueItaki", "10.0");
         String stg_sharJ = sp.getString("My_ValueJtaki", "50.0");
@@ -123,6 +124,8 @@ public class EyeletCurtains extends ActionBarActivity {
         double_i= Double.parseDouble(stg_sharI);
         double_j = Double.parseDouble(stg_sharJ);
         double_numWin =1;//จำนวนคูนเริมต้นเปน 1 กันคุนได้ 0
+
+        double_g=double_g*2.0;
         addCompunny();//ลิส บริษัท
         //เทียบตัวเปนกับ xml
         edt_numWin = (EditText) findViewById(R.id.numWinEdt);
@@ -138,6 +141,7 @@ public class EyeletCurtains extends ActionBarActivity {
         txtV_handLess =(TextView) findViewById(R.id.handLess);
         txtV_totalPrice = (TextView) findViewById(R.id.totalPrice_textview);
         txtV_numPiece = (TextView) findViewById(R.id.numPiece_textview);
+        numM= (TextView) findViewById(R.id.numM);
         txtV_metrePiece = (TextView) findViewById(R.id.metrePiece_textview);
         txtV_thaimetrePiece = (TextView) findViewById(R.id.thaimetrePiece_textview);
         txtV_lastHandi = (TextView) findViewById(R.id.lastHandi_textview);
@@ -418,7 +422,8 @@ public class EyeletCurtains extends ActionBarActivity {
                 // แสดงผลลัพ
                 txtV_metrePiece.setText(showmetre);
                 txtV_thaimetrePiece.setText(showmetrethai);
-                txtV_numPiece.setText(numPiece_stg + "   =   " + numPice2_stg);
+                txtV_numPiece.setText( numPice2_stg);
+                numM.setText(numPiece_stg);
                 txtV_lastHandi.setText(stg_lasthand);
                 txtV_totalPrice.setText(stg_lastprice);
                 txtV_handLess.setText(handLess_stng);

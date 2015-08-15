@@ -134,12 +134,12 @@
                 android:text="ซ.ม."
                 android:id="@+id/textView53" />
 
-            *ความสูงให้เลือกมากกว่าขนาดที่วัดจริงได้ (200,220,260,280,320,380,400)
+
         </LinearLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" *ความสูงให้เลือกมากกว่าขนาดที่วัดจริงได้ (200,220,260,280,320,380,400)"  />
+            android:text=" *ความสูงให้เลือกมากกว่าขนาดที่วัดจริงได้"  />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -330,6 +330,20 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
         </LinearLayout>
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="คำนวน"
+            android:id="@+id/cal"
+            android:layout_column="0"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:enabled="true"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:background="#27ae60"
+            android:layout_weight="1" />
 
 
         <LinearLayout
@@ -366,20 +380,6 @@
         </LinearLayout>
 
 
-            <Button
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="คำนวน"
-                android:id="@+id/cal"
-                android:layout_column="0"
-                android:textColor="#ffffffff"
-                android:textSize="30dp"
-                android:enabled="true"
-                android:focusableInTouchMode="false"
-                android:focusable="false"
-                android:background="#27ae60"
-                android:layout_weight="1" />
 
 
         <LinearLayout
@@ -422,7 +422,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="บาท/หลา"/>
+                android:text="บาท/ตร.ม."/>
 
             <TextView
                 android:layout_width="0dp"
