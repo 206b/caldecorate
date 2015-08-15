@@ -62,10 +62,10 @@ public class settingPleatedCurtain extends ActionBarActivity {
                 editor.putString("My_ValueD", "2.5");
                 editor.putString("My_ValueE", "10.0");
                 editor.putString("My_ValueF", "10.0");
-                editor.putString("My_ValueG", "30.0");
+                editor.putString("My_ValueG", "15.0");
                 editor.putString("My_ValueH", "30.0");
                 editor.putString("My_ValueI", "0.0");
-                editor.putString("My_ValueJ", "110.0");
+                editor.putString("My_ValueJ", "50.0");
                 editor.putString("curtainType1", "ม่านจีบ");
                 editor.commit();
                 startActivity(new Intent(settingPleatedCurtain.this, PleatedCurtains.class));
@@ -79,11 +79,11 @@ public class settingPleatedCurtain extends ActionBarActivity {
         edt_E.setText(stg_sharE);
         String stg_sharF = sp.getString("My_ValueF","10.0");
         edt_F.setText(stg_sharF);
-        String stg_sharG = sp.getString("My_ValueG", "30.0");
+        String stg_sharG = sp.getString("My_ValueG", "15.0");
         edt_G.setText(stg_sharG);
         String stg_sharH = sp.getString("My_ValueH", "30.0");
         edt_H.setText(stg_sharH);
-        String stg_sharJ = sp.getString("My_ValueJ", "110.0");
+        String stg_sharJ = sp.getString("My_ValueJ", "50.0");
         edt_J.setText(stg_sharJ);
         //แสดงตั้ง spinner ที่ค่างใว้
         String stg_sharI = sp.getString("My_ValueI", "0.0");

@@ -53,10 +53,10 @@ public class settingEyeletCurtain extends ActionBarActivity {
                 editor.putString("My_ValueDtaki",  "2.5");
                 editor.putString("My_ValueEtaki",  "10.0");
                 editor.putString("My_ValueFtaki",  "10.0");
-                editor.putString("My_ValueGtaki",  "30.0");
+                editor.putString("My_ValueGtaki",  "15.0");
                 editor.putString("My_ValueHtaki",  "30.0");
                 editor.putString("My_ValueItaki",  "0.0");
-                editor.putString("My_ValueJtaki",  "110.0");
+                editor.putString("My_ValueJtaki",  "50.0");
                 editor.putString("curtainType1taki",  "ม่านจีบ");
                 editor.commit();
                 startActivity(new Intent(settingEyeletCurtain.this, EyeletCurtains.class));
@@ -70,11 +70,11 @@ public class settingEyeletCurtain extends ActionBarActivity {
         edt_E.setText(stg_sharE);
         String stg_sharF = sp.getString("My_ValueFtaki", "10.0");
         edt_F.setText(stg_sharF);
-        String stg_sharG = sp.getString("My_ValueGtaki", "30.0");
+        String stg_sharG = sp.getString("My_ValueGtaki", "15.0");
         edt_G.setText(stg_sharG);
         String stg_sharH = sp.getString("My_ValueHtaki", "30.0");
         edt_H.setText(stg_sharH);
-        String stg_sharJ = sp.getString("My_ValueJtaki", "110.0");
+        String stg_sharJ = sp.getString("My_ValueJtaki", "50.0");
         edt_J.setText(stg_sharJ);
         //แสดงตั้ง spinner ที่ค่างใว้
         String stg_sharI = sp.getString("My_ValueItaki", "0.0");

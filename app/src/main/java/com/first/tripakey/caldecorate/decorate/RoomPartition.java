@@ -26,7 +26,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.first.tripakey.caldecorate.MainActivity;
+import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -39,12 +39,12 @@ public class RoomPartition extends ActionBarActivity {
 /////เริ่ม1 copy แอดส่วนลดตาม
 
     LinearLayout container,container2,discountF;
-    static EditText            testhand,  field1,field2,field3,field4;
+    static EditText      testhand,  field1,field2,field3,field4;
     public  Integer onstart;
     static Double   hand1,hand2,hand3,hand4,hand5;
 
     ///////จบ1 copy แอดส่วนลดตาม
-    public Spinner spin_cost1;//แสดงชื้อบริษัทจำหน่ายผ้าม้าน
+    public Spinner spin_cost1,hightSpiner;//แสดงชื้อบริษัทจำหน่ายผ้าม้าน
 
     public Double priceUse_d,areaAddU,fabtotal;
     static String testStr;
@@ -63,6 +63,7 @@ public class RoomPartition extends ActionBarActivity {
         mAdView.loadAd(adRequest);
 
         cost1addCompunny();
+        cost1addhight();
         /////เริ่ม2 copy แอดส่วนลดตาม
         onstart=0;
         hand1 = 0.0;
@@ -388,6 +389,21 @@ public class RoomPartition extends ActionBarActivity {
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item, list);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spin_cost1.setAdapter(dataAdapter);
+    }
+
+    public void cost1addhight() {
+        hightSpiner = (Spinner) findViewById(R.id.hight_spiner);
+        List<String> list = new ArrayList<String>();
+        list.add("200");
+        list.add("220");
+        list.add("260");
+        list.add("280");
+        list.add("320");
+        list.add("380");
+        list.add("400");
+        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item, list);
+        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        hightSpiner.setAdapter(dataAdapter);
     }
 
 

@@ -167,7 +167,7 @@ MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
 		ADDED from AndroidManifest.xml:18:13
 	android:name
 		ADDED from AndroidManifest.xml:17:13
-activity#com.first.tripakey.caldecorate.MainActivity
+activity#com.first.tripakey.caldecorate.main.MainActivity
 ADDED from AndroidManifest.xml:20:9
 	android:label
 		ADDED from AndroidManifest.xml:22:13

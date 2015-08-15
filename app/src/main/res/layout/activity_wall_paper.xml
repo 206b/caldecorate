@@ -261,7 +261,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="*ขนาดพื้นที่ผนัง(ตร.ม.)"
+                android:text="*ขนาดพื้นที่ผนัง(ซ.ม.)"
                 android:id="@+id/textView10"
                 android:layout_column="0"
                 android:textColor="#1A284F" />
@@ -291,14 +291,7 @@
                 android:id="@+id/useBlogLong_edt"
                 android:layout_weight="1"
                 android:hint="ยาว" />
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:inputType="number"
-                android:ems="10"
-                android:id="@+id/useBlogUnit_edt"
-                android:layout_weight="1"
-                android:hint="ชุด" />
+
 
             <ImageButton
                 style="?android:attr/buttonStyleSmall"
@@ -328,6 +321,11 @@
                 android:id="@+id/addAreaTotal"
                 android:layout_column="0"
                 android:layout_weight="1" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ตร.ม."
+                android:layout_weight="1" />
 
         </TableRow>
 
@@ -348,7 +346,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="*ขนาดพื้นที่ว่าง(ตร.ม)"
+                android:text="*ขนาดพื้นที่ว่าง(ซ.ม)"
                 android:id="@+id/textView15"
                 android:layout_column="0" />
         </TableRow>
@@ -376,14 +374,6 @@
                 android:layout_weight="1"
                 android:hint="ยาว" />
 
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:inputType="number"
-                android:ems="10"
-                android:id="@+id/emplyBlogUnit_edt"
-                android:layout_weight="1"
-                android:hint="ชุด" />
 
             <ImageButton
                 style="?android:attr/buttonStyleSmall"
@@ -414,6 +404,11 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/addEmpTotal"
                 android:layout_weight="1" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ตร.ม."
+                android:layout_weight="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -441,34 +436,19 @@
                 android:layout_weight="1" />
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-           android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="พื้นที่ติดตั่ง ตร.ม."
-                android:id="@+id/piceOUT_textView12"
-                android:layout_column="0"
-                android:textColor="#1A284F"
-                android:layout_weight="0.5" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="ตร.ล."
-                android:id="@+id/textView18"
-                android:layout_weight="0.5" />
-        </LinearLayout>
-
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="พื้นที่ติดตั่ง"
+                android:id="@+id/piceOUT_textView12"
+                android:layout_column="0"
+                android:textColor="#1A284F"
+                android:layout_weight="1" />
 
             <TextView
                 android:layout_width="0dp"
@@ -482,8 +462,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:id="@+id/YdSquare"
+                android:text="ตร.ม."
+                android:id="@+id/textView18"
                 android:layout_weight="1" />
+
+
 
         </LinearLayout>
 
@@ -497,7 +480,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="ราคาส่วนลด บาท/ม้วน"
+                android:text="ราคาส่วนสุทธิ"
                 android:id="@+id/longOUT_textview"
                 android:layout_column="0"
                 android:textColor="#1A284F"
@@ -507,7 +490,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="ลดลง บาท"
+                android:text="ส่วนลด"
                 android:id="@+id/textView21"
                 android:layout_weight="1" />
         </LinearLayout>
@@ -525,6 +508,11 @@
                 android:layout_column="0"
                 android:textColor="#1A284F"
                 android:layout_weight="1" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="บาท/ตร.ม."
+                android:layout_weight="1" />
 
             <TextView
                 android:layout_width="0dp"
@@ -532,17 +520,32 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/discount"
                 android:layout_weight="1" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="บาท"
+                android:layout_weight="1" />
 
         </LinearLayout>
 
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="จำนวนวอลเปเปอร์ที่ใช้  เผื่อไปแล้ว (ม้วน)"
+                android:text="จำนวนวอลเปเปอร์ที่ใช้"
+                android:layout_weight="2"
                 android:id="@+id/textView20"
                 android:layout_column="0" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="ควรเผื่อวอลเปเปอร์"/>
+    </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -556,6 +559,11 @@
                 android:id="@+id/NumWall"
                 android:layout_column="0"
                 android:layout_weight="1" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="ม้วน"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -566,6 +574,11 @@
                 android:enabled="false"
                 android:focusableInTouchMode="false"
                 android:textColor="#ffff130c" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="ม้วน"/>
         </LinearLayout>
 
 
@@ -578,18 +591,12 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="ร่วมเป็นเงิน/บาท"
+                android:text="ร่วมเป็นเงิน"
                 android:id="@+id/handOUT_textView"
                 android:layout_column="0"
                 android:textColor="#1A284F"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:id="@+id/textView11"
-                android:layout_column="2"
-                android:textColor="#1A284F" />
+
 
         </LinearLayout>
 
@@ -610,9 +617,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:id="@+id/handLess"
-                android:layout_column="2"
-                android:textColor="#ff491fff" />
+                android:text="บาท"/>
 
         </LinearLayout>
     </LinearLayout>

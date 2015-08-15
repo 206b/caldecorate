@@ -53,7 +53,7 @@ public class settingRomanBlind extends ActionBarActivity {
                 editor.putString("My_ValueDpup",  "2.5");
                 editor.putString("My_ValueEpup",  "10.0");
                 editor.putString("My_ValueFpup",  "10.0");
-                editor.putString("My_ValueGpup",  "30.0");
+                editor.putString("My_ValueGpup",  "15.0");
                 editor.putString("My_ValueHpup",  "30.0");
                 editor.putString("My_ValueIpup",  "0.0");
                 editor.putString("My_ValueJpup",  "110.0");
@@ -70,7 +70,7 @@ public class settingRomanBlind extends ActionBarActivity {
         edt_E.setText(stg_sharE);
         String stg_sharF = spp.getString("My_ValueFpup", "10.0");
         edt_F.setText(stg_sharF);
-        String stg_sharG = spp.getString("My_ValueGpup", "30.0");
+        String stg_sharG = spp.getString("My_ValueGpup", "15.0");
         edt_G.setText(stg_sharG);
         String stg_sharH = spp.getString("My_ValueHpup", "30.0");
         edt_H.setText(stg_sharH);

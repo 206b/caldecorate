@@ -24,14 +24,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/mooliBt"
         android:layout_below="@+id/manmonBt"
-        android:text="มู่ลี่ไม้"
+        android:text="@string/bambooblind"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/mooliAlu"
         android:layout_below="@+id/mooliBt"
-        android:text="มู่ลี่อลู"
+        android:text="มู่ลี่อลูมิเนียม"
         />
     <Button
         android:layout_width="match_parent"

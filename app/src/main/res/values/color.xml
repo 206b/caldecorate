@@ -3,4 +3,6 @@
     <color name="ColorPrimary">#BBDEFB</color>
     <color name="ColorPrimaryDark">#90CAF9</color>
     <color name="tabsScrollColor">#64B5F6</color>
+
+    <color name="holo_blue">#FF33E5B5</color>
 </resources>

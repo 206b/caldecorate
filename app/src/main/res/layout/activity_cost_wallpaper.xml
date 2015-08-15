@@ -282,7 +282,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="ราคาส่วนลด บาท/ม้วน"
+                android:text="ราคาสุทธิ"
                 android:id="@+id/handOUT_textView"
                 android:textColor="#1A284F"  />
 
@@ -291,7 +291,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="ลดลง"
+                android:text="ส่วนลด"
                 android:id="@+id/textView16"/>
         </LinearLayout>
 
@@ -307,8 +307,14 @@
                 android:id="@+id/priceUse"
                 android:layout_column="0"
                 android:textColor="#ffff322b"
-                android:layout_weight="0.5"
+                android:layout_weight="1"
                 android:nestedScrollingEnabled="false" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="บาท/ม้วน"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -316,25 +322,41 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/discount"
                 android:layout_column="1"
-                android:layout_weight="0.5" />
+                android:layout_weight="1" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="บาท"/>
         </LinearLayout>
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="รวมเป็นเงินทั้งสิ้น/บาท"
+                android:text="รวมเป็นเงินทั้งสิ้น"
                 android:id="@+id/totalpriceOUT_textView"
                 android:layout_column="0"
                 android:textColor="#1A284F" />
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:id="@+id/totalBht"
                 android:layout_column="0"
                 android:textColor="#ffff322b" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="บาท"/>
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>
