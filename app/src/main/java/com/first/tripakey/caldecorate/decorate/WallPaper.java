@@ -356,6 +356,7 @@ public class WallPaper extends ActionBarActivity {
                                               Double wallL_dou = Double.parseDouble(edt_wallL.getText().toString());
                                               Double priceDoub = Double.parseDouble(priceEdt.getText().toString());
                                               Double wallArea_dou =( wallL_dou/100)*(wallW_dou/100);
+                                              /////ปัดขึ้น
                                               Double numWall_dou = totalSquare/wallArea_dou;
                                              Integer num =((int) Math.ceil(numWall_dou));
                                               spar = num.longValue()/10;
@@ -428,7 +429,7 @@ public class WallPaper extends ActionBarActivity {
                                                   priceHandDoub = priceHandDoub*(100-hand3)/100;
                                               priceHandDoub = priceHandDoub*(100-hand4)/100;
                                               priceHandDoub = priceHandDoub*(100-hand5)/100;
-                                              totalBht= (totalSquare*priceHandDoub) ;
+                                              totalBht= (num*priceHandDoub) ;
 
 
 
@@ -440,7 +441,7 @@ public class WallPaper extends ActionBarActivity {
                                               }
 
                                              Double handtoDou= priceDoub-priceHandDoub;
-
+                                              Double totalprice= totalBht*priceHandDoub;
                                               DecimalFormat d2 = new DecimalFormat("0.00");
                                               DecimalFormat d0 = new DecimalFormat("0");
                                              String numWall =d0.format(num);
@@ -468,8 +469,6 @@ public class WallPaper extends ActionBarActivity {
 
                                       public void onBackPressed() {
                                           startActivity(new Intent(WallPaper.this, MainActivity.class));
-
-
 
                                       }
 

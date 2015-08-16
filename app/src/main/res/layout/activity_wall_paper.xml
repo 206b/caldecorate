@@ -186,7 +186,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="บาท/ตร.ม."
+                android:text="บาท/ม้วน"
                 android:id="@+id/textView107" />
         </LinearLayout>
 
@@ -511,7 +511,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="บาท/ตร.ม."
+                android:text="บาท/ม้วน"
                 android:layout_weight="1" />
 
             <TextView
