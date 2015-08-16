@@ -252,7 +252,8 @@
                 android:focusableInTouchMode="false"
                 android:layout_weight="1"
                 android:focusable="false"
-                android:background="#27ae60"/>
+                android:background="#27ae60"
+                android:layout_marginBottom="5dp" />
 
 
 

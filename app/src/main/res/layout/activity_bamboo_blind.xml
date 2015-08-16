@@ -291,7 +291,8 @@
         android:enabled="true"
         android:focusableInTouchMode="false"
         android:focusable="false"
-        android:background="#27ae60"/>
+        android:background="#27ae60"
+        android:layout_marginBottom="5dp" />
 
         <LinearLayout
             android:layout_width="match_parent"

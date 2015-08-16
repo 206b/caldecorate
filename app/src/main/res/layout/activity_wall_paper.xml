@@ -433,7 +433,8 @@
                 android:enabled="true"
                 android:focusableInTouchMode="false"
                 android:focusable="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp" />
 
 
 
