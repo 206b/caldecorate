@@ -22,11 +22,7 @@ import com.first.tripakey.caldecorate.R;
 public class firstTime extends ActionBarActivity {
     private JazzyViewPager mJazzy;
     int[] mResources = {
-            R.drawable.first1,
-            R.drawable.first2,
-            R.drawable.first3,
-            R.drawable.first4,
-            R.drawable.first5,
+
     };
 
 

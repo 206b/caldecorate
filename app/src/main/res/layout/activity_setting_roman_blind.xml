@@ -43,7 +43,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="*พับเย็บปิดข้าง ด้านละ"
+                android:text="พับเย็บปิดข้าง ด้านละ"
                 android:id="@+id/textView5"
                 android:layout_column="0"
                 android:textColor="#fff" />
@@ -61,7 +61,7 @@
                 android:ems="10"
                 android:id="@+id/setE_edittext"
                 android:layout_column="0"
-                android:hint="10 ซม"
+                android:hint="10 ซ.ม."
                 android:textColorHint="#afa3a3a3"
                 android:layout_weight="2"
                 android:textColor="#f39c12" />
@@ -69,7 +69,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="ซม."/>
+                android:text="ซ.ม."/>
         </LinearLayout>
 
         <TableRow
@@ -79,7 +79,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="*พับเย็บผ้าใส้โซ่"
+                android:text="พับเย็บผ้าใส่โซ่"
                 android:id="@+id/textView6"
                 android:layout_column="0"
                 android:textColor="#fff" />
@@ -97,7 +97,7 @@
                 android:ems="10"
                 android:id="@+id/setF_edittext"
                 android:layout_column="0"
-                android:hint="10 ซม"
+                android:hint="10 ซ.ม."
                 android:textColorHint="#afa3a3a3"
                 android:layout_weight="2"
                 android:textColor="#f39c12" />
@@ -105,7 +105,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="ซม."/>
+                android:text="ซ.ม."/>
         </LinearLayout>
 
         <TableRow
@@ -115,7 +115,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="*เผื่อความกว้าง ด้านละ"
+                android:text="เผื่อความกว้าง ด้านละ"
                 android:id="@+id/textView7"
                 android:layout_column="0"
                 android:textColor="#fff" />
@@ -133,7 +133,7 @@
                 android:ems="10"
                 android:id="@+id/setG_edittext"
                 android:layout_column="0"
-                android:hint="15 ซม"
+                android:hint="15 ซ.ม."
                 android:textColorHint="#afa3a3a3"
                 android:layout_weight="2"
                 android:textColor="#f39c12" />
@@ -141,7 +141,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="ซม."/>
+                android:text="ซ.ม."/>
         </LinearLayout>
 
         <TableRow
@@ -151,7 +151,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="*ชายผ้าด้านล่าง"
+                android:text="เผื่อชายผ้าด้านล่าง"
                 android:id="@+id/textView8"
                 android:layout_column="0"
                 android:textColor="#fff" />
@@ -169,7 +169,7 @@
                 android:ems="10"
                 android:id="@+id/setH_edittext"
                 android:layout_column="0"
-                android:hint="30 ซม"
+                android:hint="30 ซ.ม."
                 android:textColorHint="#afa3a3a3"
                 android:layout_weight="2"
                 android:textColor="#f39c12" />
@@ -177,7 +177,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="ซม."/>
+                android:text="ซ.ม."/>
         </LinearLayout>
 
         <TableRow
@@ -187,7 +187,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="เผื่อจำนวนผ้า"
+                android:text="เผื่อจำนวนผ้า(%)"
                 android:id="@+id/textView9"
                 android:layout_column="0"
                 android:textColor="#fff" />
