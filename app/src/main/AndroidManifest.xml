@@ -31,15 +31,7 @@
             android:label="@string/title_activity_curtain" >
         </activity>
         <activity
-            android:name=".decorate.curtains.settingPleatedCurtain"
-            android:label="@string/title_activity_setting" >
-        </activity>
-        <activity
-            android:name=".decorate.curtains.PleatedCurtains"
-            android:label="@string/title_activity_cal_curtain" >
-        </activity>
-        <activity
-            android:name=".decorate.curtains.RomanBlind"
+            android:name=".decorate.curtains.Roman.RomanBlind"
             android:label="@string/title_activity_cal_curtain2pup" >
         </activity>
         <activity
@@ -51,7 +43,7 @@
             android:label="@string/title_activity_wall_paper" >
         </activity>
         <activity
-            android:name=".decorate.curtains.settingRomanBlind"
+            android:name=".decorate.curtains.Roman.settingRomanBlind"
             android:label="@string/title_activity_setting_pup" >
         </activity>
         <activity
@@ -78,14 +70,6 @@
             android:name=".cost.costWallpaper"
             android:label="@string/title_activity_cost_wallpaper" >
         </activity>
-        <activity
-            android:name=".decorate.curtains.EyeletCurtains"
-            android:label="@string/title_activity_calcurtain_mtaki" >
-        </activity>
-        <activity
-            android:name=".decorate.curtains.settingEyeletCurtain"
-            android:label="@string/title_activity_setting_mtaki" >
-        </activity>
 
         <!-- Include the AdActivity configChanges and theme. -->
         <activity
@@ -93,20 +77,16 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent" />
         <activity
-            android:name=".tabDesign"
-            android:label="@string/title_activity_tab_design" >
+            android:name=".decorate.curtains.Eyelet.Eyelet"
+            android:label="@string/title_activity_eyelet" >
         </activity>
         <activity
-            android:name=".main.Tab1"
-            android:label="@string/title_activity_tab1" >
+            android:name=".decorate.curtains.Pleated.Pleated"
+            android:label="@string/title_activity_pleated" >
         </activity>
         <activity
-            android:name=".first_Time.firstTime"
-            android:label="@string/title_activity_first_time" >
-        </activity>
-        <activity
-            android:name=".main.Tab3"
-            android:label="@string/title_activity_tab3" >
+            android:name=".decorate.curtains.Roman.Roman"
+            android:label="@string/title_activity_roman" >
         </activity>
     </application>
 

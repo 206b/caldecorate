@@ -189,13 +189,13 @@ ADDED from AndroidManifest.xml:29:9
 		ADDED from AndroidManifest.xml:31:13
 	android:name
 		ADDED from AndroidManifest.xml:30:13
-activity#com.first.tripakey.caldecorate.decorate.curtains.settingPleatedCurtain
+activity#com.first.tripakey.caldecorate.decorate.curtains.Pleated.settingPleatedCurtain
 ADDED from AndroidManifest.xml:33:9
 	android:label
 		ADDED from AndroidManifest.xml:35:13
 	android:name
 		ADDED from AndroidManifest.xml:34:13
-activity#com.first.tripakey.caldecorate.decorate.curtains.PleatedCurtains
+activity#com.first.tripakey.caldecorate.decorate.curtains.Pleated.PleatedCurtains
 ADDED from AndroidManifest.xml:37:9
 	android:label
 		ADDED from AndroidManifest.xml:39:13
@@ -207,7 +207,7 @@ ADDED from AndroidManifest.xml:41:9
 		ADDED from AndroidManifest.xml:43:13
 	android:name
 		ADDED from AndroidManifest.xml:42:13
-activity#com.first.tripakey.caldecorate.decorate.curtains.RomanBlind
+activity#com.first.tripakey.caldecorate.decorate.curtains.Roman.RomanBlind
 ADDED from AndroidManifest.xml:45:9
 	android:label
 		ADDED from AndroidManifest.xml:47:13
@@ -243,7 +243,7 @@ ADDED from AndroidManifest.xml:65:9
 		ADDED from AndroidManifest.xml:67:13
 	android:name
 		ADDED from AndroidManifest.xml:66:13
-activity#com.first.tripakey.caldecorate.decorate.curtains.settingRomanBlind
+activity#com.first.tripakey.caldecorate.decorate.curtains.Roman.settingRomanBlind
 ADDED from AndroidManifest.xml:69:9
 	android:label
 		ADDED from AndroidManifest.xml:71:13
@@ -297,13 +297,13 @@ ADDED from AndroidManifest.xml:101:9
 		ADDED from AndroidManifest.xml:103:13
 	android:name
 		ADDED from AndroidManifest.xml:102:13
-activity#com.first.tripakey.caldecorate.decorate.curtains.EyeletCurtains
+activity#com.first.tripakey.caldecorate.decorate.curtains.Eyelet.EyeletCurtains
 ADDED from AndroidManifest.xml:105:9
 	android:label
 		ADDED from AndroidManifest.xml:107:13
 	android:name
 		ADDED from AndroidManifest.xml:106:13
-activity#com.first.tripakey.caldecorate.decorate.curtains.settingEyeletCurtain
+activity#com.first.tripakey.caldecorate.decorate.curtains.Eyelet.settingEyeletCurtain
 ADDED from AndroidManifest.xml:109:9
 	android:label
 		ADDED from AndroidManifest.xml:111:13

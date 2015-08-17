@@ -26,32 +26,25 @@
                 android:id="@+id/freezeAsdBanner" />
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="แบรนด์สินค้า"
+                android:text="แบรด์นสินค้า"
                 android:id="@+id/braneInput_textView"
                 android:layout_column="0"
                 android:background="#ffffffff"
                 android:textColor="#1A284F"
-                android:layout_weight="3" />
+                android:layout_weight="2" />
 
             <Spinner
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="5"
+                android:layout_weight="4"
                 android:id="@+id/cost1_spin"
-                android:layout_column="0" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:id="@+id/textView3" />
-
-        </LinearLayout>
+                android:layout_column="1"/>
+            </LinearLayout>
 
             <ImageView
                 android:layout_width="0dp"
@@ -65,7 +58,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:text="รหัสสินค้า"
                 android:id="@+id/codeInput_textView"
                 android:background="#ffffffff"
@@ -74,7 +67,7 @@
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="5"
+                android:layout_weight="3"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/editText"/>
@@ -82,7 +75,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/textView54" />
         </LinearLayout>
@@ -94,7 +87,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:text="ขนาดใบมู่ลี่"
                 android:id="@+id/wInput_textView"
                 android:textColor="#1A284F" />
@@ -102,7 +95,7 @@
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="5"
+                android:layout_weight="3"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/fabWcost1_edt"/>
@@ -110,11 +103,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="ม.ม."
-                android:id="@+id/textView53"
-                android:textColor="#1A284F"/>
+                android:id="@+id/textView53" />
         </LinearLayout>
 
         <LinearLayout
@@ -124,7 +116,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:text="*ราคา"
                 android:id="@+id/priceInput_textView"
                 android:layout_column="0"
@@ -133,7 +125,7 @@
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="5"
+                android:layout_weight="3"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/price"/>
@@ -141,11 +133,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="บาท/ตร.ม."
-                android:id="@+id/textView55"
-                android:textColor="#1A284F"/>
+                android:id="@+id/textView55" />
         </LinearLayout>
 
         <LinearLayout
@@ -155,14 +146,14 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:text="ส่วนลดหลัก"
                 android:id="@+id/textView5"
                 android:textColor="#1A284F" />
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="5"
+                android:layout_weight="3"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/handi1_edittxt" />
@@ -170,11 +161,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="%"
-                android:id="@+id/textView56"
-                android:textColor="#1A284F"/>
+                android:id="@+id/textView56" />
         </LinearLayout>
 
     <LinearLayout
@@ -191,9 +181,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/vat"
                 android:layout_column="0"
-                android:textColor="#77aaff"
+                android:textColor="#1A284F"
                 android:layout_weight="1"
-                android:textSize="15dp"
                 android:text="แยกภาษี" />
         <LinearLayout
             android:layout_width="match_parent"
@@ -202,36 +191,30 @@
             <CheckBox
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1.5"
+                android:layout_weight="2"
                 android:text="มอเตอร์"
-                android:id="@+id/motor"
-                android:textSize="15dp"
-                android:textColor="#77aaff"/>
+                android:id="@+id/motor" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1.8"
+                android:layout_weight="3"
                 android:inputType="number"
                 android:id="@+id/motorEdt"
-                android:textSize="15dp"
-                android:hint="ราคา"/>
+                android:hint="ราคามอเตอร์"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.2"
-                android:textSize="15dp"
-                android:textColor="#1A284F"
+                android:layout_weight="0.5"
                 android:text="X"  />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.5"
+                android:layout_weight="1"
                 android:id="@+id/UnitMotor"
                 android:inputType="number"
-                android:textSize="15dp"
                 android:hint="1"/>
 
             <TextView
@@ -240,8 +223,7 @@
                 android:layout_weight="1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="ชุด"
-                android:id="@+id/textView58"
-                android:textColor="#1A284F"/>
+                android:id="@+id/textView58" />
         </LinearLayout>
 
 
@@ -249,66 +231,48 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="ขนาดหน้าต่าง/ประตู (ซ.ม.)"
+                android:text="ขนาดหน้าต่าง/ประตู (ซ.ม)"
                 android:id="@+id/textView29"
-                android:layout_column="0"
-                android:textColor="#1A284F"/>
+                android:textColor="#1A284F"
+                android:layout_column="0" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
             <EditText
                 android:id="@+id/wildIn"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:layout_weight="2"
-                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textSize="20dp"
                 android:hint="กว้าง" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="X"
-                android:textSize="15dp"
-                android:id="@+id/textView50"
-                android:layout_weight="0.3" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/longIn"
                 android:inputType="number"
-                android:layout_weight="2"
-                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textSize="20dp"
                 android:hint="สูง" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="X"
-                android:textSize="15dp"
-                android:id="@+id/textView51"
-                android:layout_weight="0.3" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/unit_edt"
                 android:inputType="number"
-                android:layout_weight="2"
-                android:textSize="15dp"
-                android:hint="1 ชุด" />
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:hint="ชุด" />
 
             <ImageButton
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/addSq"
-                android:layout_weight="1.6" />
+                android:layout_weight="1" />
         </LinearLayout>
 
     <LinearLayout
@@ -328,42 +292,36 @@
         android:enabled="true"
         android:focusableInTouchMode="false"
         android:focusable="false"
-        android:background="#27ae60"
-        android:layout_marginBottom="5dp" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:orientation="horizontal">
-    </LinearLayout>
+        android:background="#27ae60"/>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3.5"
-                android:text="จำนวนพื้นที่ทั้งหมด"
+                android:layout_weight="2"
+                android:text="*จำนวนพื้นที่ทั้งหมด"
                 android:id="@+id/textView10"
                 android:layout_column="0"
                 android:textColor="#1A284F"/>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2.5"
+                android:layout_weight="2"
                 android:inputType="numberDecimal"
+                android:textColor="@color/textResultColor"
                 android:id="@+id/fab"
-                android:textColorHint="#afa3a3a3" />
+                 />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="ตร.ม."
                 android:id="@+id/textView59" />
         </LinearLayout>
-
 
 
 
@@ -377,8 +335,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="ราคาสุทธิ"
-            android:id="@+id/handOUT_textView"
             android:textColor="#1A284F"
+            android:id="@+id/handOUT_textView"
             android:layout_weight="1" />
 
         <TextView
@@ -386,43 +344,45 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="ส่วนลด"
-            android:id="@+id/textView16"
             android:textColor="#1A284F"
+            android:id="@+id/textView16"
             android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:id="@+id/hand"
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="10dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/priceUse"
-            android:textColor="#ffff322b"
+            android:textColor="@color/textResultColor"
             android:layout_weight="1"
             android:nestedScrollingEnabled="false" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.9"
-            android:text="บาท/ตร.ม."/>
+            android:layout_weight="1"
+
+            android:text="บาท/หลา"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:id="@+id/discount"
+            android:textColor="@color/textResultColor"
             android:layout_weight="1" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="บาท/ตร.ม."/>
+            android:text="บาท"/>
 
     </LinearLayout>
 
@@ -434,7 +394,7 @@
         android:text="รวมเป็นเงินทั้งสิ้น"
         android:id="@+id/totalpriceOUT_textView"
         android:layout_column="0"
-        android:textColor="#1A284F" />
+        android:textColor="#1A284F"  />
 
 
     <LinearLayout
@@ -442,17 +402,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_width="10dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:id="@+id/totalBht"
             android:layout_column="0"
-            android:textColor="#ffff322b"
-            android:textSize="20dp"/>
+            android:textColor="@color/textResultColor" />
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
+            android:layout_weight="1"
             android:text="บาท"/>
     </LinearLayout>
 

@@ -3,12 +3,10 @@ package com.first.tripakey.caldecorate.decorate;
 //หลักการตั้งตัวเปรใน xml  = ชื่อตัวแปลนั้น_ชนิดตัวแปร(ย่อ
 
 //หน้าเลือกชนิดผ้าม้าน
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -16,11 +14,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.first.tripakey.caldecorate.Global;
+import com.first.tripakey.caldecorate.decorate.curtains.Eyelet.Eyelet;
+import com.first.tripakey.caldecorate.decorate.curtains.Pleated.Pleated;
+import com.first.tripakey.caldecorate.decorate.curtains.Roman.Roman;
 import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.R;
-import com.first.tripakey.caldecorate.decorate.curtains.RomanBlind;
-import com.first.tripakey.caldecorate.decorate.curtains.EyeletCurtains;
-import com.first.tripakey.caldecorate.decorate.curtains.PleatedCurtains;
+import com.first.tripakey.caldecorate.decorate.curtains.Roman.RomanBlind;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -47,15 +46,15 @@ public class curtain extends ActionBarActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position+1){
                     case 1:
-                        startActivity(new Intent(curtain.this, PleatedCurtains.class));
+                        startActivity(new Intent(curtain.this, Pleated.class));
                         Global.name_curtain = "ม่านจีบ";
                         break;
                     case 2:
-                        startActivity(new Intent(curtain.this, EyeletCurtains.class));
+                        startActivity(new Intent(curtain.this, Eyelet.class));
                         Global.name_curtain = "ม่านตาไก่";
                         break;
                     case 3:
-                        startActivity(new Intent(curtain.this, RomanBlind.class));
+                        startActivity(new Intent(curtain.this, Roman.class));
                         Global.name_curtain = "ม่านผับ";
                         break;
 
@@ -71,15 +70,15 @@ public class curtain extends ActionBarActivity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_curtain, menu);
+      //  MenuInflater inflater = getMenuInflater();
+      //  inflater.inflate(R.menu.menu_curtain, menu);
         return true;
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
         switch (item.getItemId()) {
-
+/*
             case R.id.man:
                 final AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 alertDialog.setTitle("Ezekiel 25:17");
@@ -90,6 +89,7 @@ public class curtain extends ActionBarActivity {
                 alertDialog.show();
 
                 return true;
+                */
             default:
                 return super.onOptionsItemSelected(item);
         }

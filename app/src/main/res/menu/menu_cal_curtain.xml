@@ -3,7 +3,6 @@
     <item android:id="@+id/action_settings"
         android:icon="@drawable/menu_ic"
         android:title="ตั้งค่า" />
-    <item android:id="@+id/man"
-        android:title="@string/man" />
+
 
 </menu>

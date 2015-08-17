@@ -181,7 +181,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/vat"
                 android:layout_column="0"
-                android:textColor="#77aaff"
+                android:textColor="#1A284F"
                 android:layout_weight="1"
                 android:text="แยกภาษี" />
             <LinearLayout
@@ -233,6 +233,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="ขนาดหน้าต่าง/ประตู (ซ.ม)"
                 android:id="@+id/textView29"
+                android:textColor="#1A284F"
                 android:layout_column="0" />
 
             <LinearLayout
@@ -315,6 +316,7 @@
                     android:layout_weight="2"
                     android:inputType="numberDecimal"
                     android:id="@+id/fab"
+                    android:textColor="@color/textResultColor"
                     android:textColorHint="#afa3a3a3" />
                 <TextView
                     android:layout_width="0dp"
@@ -344,6 +346,7 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="ส่วนลด"
+                    android:textColor="#1A284F"
                     android:id="@+id/textView16"
                     android:layout_weight="1" />
             </LinearLayout>
@@ -358,7 +361,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/priceUse"
-                    android:textColor="#ffff322b"
+                    android:textColor="@color/textResultColor"
                     android:layout_weight="1"
                     android:nestedScrollingEnabled="false" />
 
@@ -373,6 +376,7 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/discount"
+                    android:textColor="@color/textResultColor"
                     android:layout_weight="1" />
 
                 <TextView
@@ -404,7 +408,7 @@
                     android:layout_weight="1"
                     android:id="@+id/totalBht"
                     android:layout_column="0"
-                    android:textColor="#ffff322b" />
+                    android:textColor="@color/textResultColor" />
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

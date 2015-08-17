@@ -408,15 +408,15 @@ public class RollerBlind extends ActionBarActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_cost2, menu);
+       // MenuInflater inflater = getMenuInflater();
+      //  inflater.inflate(R.menu.menu_cost2, menu);
         return true;
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
         switch (item.getItemId()) {
-
+/*
             case R.id.man:
                 final AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 alertDialog.setTitle("Ezekiel 25:17");
@@ -427,6 +427,7 @@ public class RollerBlind extends ActionBarActivity {
                 alertDialog.show();
 
                 return true;
+                */
             default:
                 return super.onOptionsItemSelected(item);
         }

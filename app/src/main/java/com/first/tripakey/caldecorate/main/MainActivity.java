@@ -10,7 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.first.tripakey.caldecorate.R;
-import com.first.tripakey.caldecorate.first_Time.firstTime;
+
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -41,12 +41,8 @@ public class MainActivity extends ActionBarActivity {
 
        // startActivity(new Intent(MainActivity.this, firstTime.class));
         ///at first time
-        SharedPreferences save_first_time = getPreferences(0);
-        check_firsttime = save_first_time.getBoolean("first_time", false);
-        if(check_firsttime == false){
-            onStop();
-            startActivity(new Intent(MainActivity.this, firstTime.class));
-        }
+
+
 
         //test dialog
 
@@ -103,7 +99,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+     //   getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
