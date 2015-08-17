@@ -2,11 +2,200 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\gaewgan\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-796b1e7f72deac692c1a1e836803116e8637cd2e.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-14c2ad69c40b2b533023ba688ba9909dd3a1b7a6.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-d58ccca07288a855c8a012a637eaaecaa264fcf7.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\gaewgan\MyProject\demo\android_caldecorate-master\android_caldecorate-master\app\build\intermediates\pre-dexed\release\library-2.4.0-e6db547d222d3a5a1e4c83059712f0c51ef3b808.jar" />
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\library-2.4.0-ed9fce957254973da371138f0be1f995db299af2.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-3b78793a0ae16f3a20150bf4e891bf97a9f321b6.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-7b11202389d80f2d6765ddc9a0f43630122e2ac0.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-74e6ee08a73a23c7cc909fa04c39b3e6267dd1b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-b64ee6a321cf90200fd4541b0026fcd36e668e16.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-5d03df6c71629b58e6c9f6f21d9cca4550ddb91a.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-69de591c46c9467b36df770767ad19663ec58368.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-be4bdb2b848e46e34114b957a6044b290b36c6fd.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-9fd84a287e6855d9856048e96b2240ede0cada15.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-4a2601d2a644cd9bb960a698da74d76019b0df2c.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-741b40c516071a410700de061b19c0d3f4efa86b.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-85ee3d3801a9eee34f3e6b75183e2b3fad536a06.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-c7efdca054898fe936c5649ac26a9a89af97cbb4.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-43917ff0c165d35b898230ac8add81ea2275da05.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-a6b5bd38846c3df7e63ed83b6f1558c4a6a62a73.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-0cfb758854f80ada6ef9013e96f70323b811e067.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-ef868a66fdee682ee52afeee68254a899347162e.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-066ea7f8a930326eecd769db55bba98ee47ad961.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-8cb41f5cdfcd1ff4414bd93a7ce4d1c6612d2420.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-c1fb1777cc0e878820f13c3804d5c66b10c813ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-0171e9778496635d2208d800713ee43ee0ff2d02.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-1f6fcf645e479e0a415bbacf6e4655358fca21cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-39e9e2527ecc466b2fc321a6db535208bc831274.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-150999bc23ef3d34539748f600356beab750531d.jar" />
+    </item>
+    <item
+        jar="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="C:\Users\phonggnohp\AndroidStudioProjects\caldecorate\app\build\intermediates\pre-dexed\debug\classes-db31536a872498809d93bdc0e1a089eb8ccd0b23.jar" />
     </item>
 
 </items>
